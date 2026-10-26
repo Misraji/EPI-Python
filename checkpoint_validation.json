@@ -1,0 +1,2185 @@
+{
+  "timestamp_utc": "2026-10-26T17:40:23.784735+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "indexed_exercises": 264,
+  "runnable_exercises": 215,
+  "reference_only_exercises": 49,
+  "chapter_count": 21,
+  "verified_source_test_path_pairs": 215,
+  "python_files_parsed": 430,
+  "path_errors": [],
+  "syntax_errors": [],
+  "source_hashes_sha256": {
+    "src/epi_python/chapter_04_primitive_types/pg_024_parity.py": "917dfbda7a8e0380df10749306a47a061212cd538bedcdcd88f888b8da866f2d",
+    "tests/chapter_04_primitive_types/test_pg_024_parity.py": "cdfa867ef5a3f45c52fe93dc9934fbd79ca31c053a9fcb5c2cc2cda88a6cc630",
+    "src/epi_python/chapter_04_primitive_types/pg_027_swap_bits.py": "547eb4ac55e77c2fbba6d39e5581c65f0080b0afeacc622f16752da9cf4c3677",
+    "tests/chapter_04_primitive_types/test_pg_027_swap_bits.py": "82b9e0853332ce5a38667295fa28c68ba0b653fd1a0323003be08aa441ce855e",
+    "src/epi_python/chapter_04_primitive_types/pg_028_reverse_bits.py": "7281fefef13f387b03c9500538de2eecebd647c84581aa0e4567cdd6ea1ebc14",
+    "tests/chapter_04_primitive_types/test_pg_028_reverse_bits.py": "597bea18f044134a73bab0b4a456893806fe9cf23c522cc129bd76bc7f019e79",
+    "src/epi_python/chapter_04_primitive_types/pg_028_closest_int_same_bit_count.py": "5a13588b3fcba0bdd97ff246eb654b42d38a68f7f967709680573a9200b53770",
+    "tests/chapter_04_primitive_types/test_pg_028_closest_int_same_bit_count.py": "9242c75ed23295efbdfe8ecb77425e19016a5c93892109cc251b4eee772131b4",
+    "src/epi_python/chapter_04_primitive_types/pg_029_multiply_without_arithmetic.py": "7e582646c40fbd388caa87f6a1db993e2e78e7aaffc92960b06b795b7d340780",
+    "tests/chapter_04_primitive_types/test_pg_029_multiply_without_arithmetic.py": "197a77d65232db54667b8bcd225112b861d7acda51d79444ad0531a906a81ceb",
+    "src/epi_python/chapter_04_primitive_types/pg_031_divide_without_arithmetic.py": "2169072e4138f5539e9e86d7373bf05af4e1593c8af6540cc04a03bfb615b568",
+    "tests/chapter_04_primitive_types/test_pg_031_divide_without_arithmetic.py": "b8e0f1eb5de802bb8f04fc74b92f26d931884121bd38e1c046f9f3e4c7945629",
+    "src/epi_python/chapter_04_primitive_types/pg_032_power.py": "8844be017127dc900807368a218760a0618deab38c509529ea227d5079470973",
+    "tests/chapter_04_primitive_types/test_pg_032_power.py": "3df6487d88f1ff0a46aec3943950d21632af4965cd79a847394d79924e4de1db",
+    "src/epi_python/chapter_04_primitive_types/pg_032_reverse_digits.py": "ff9c6e67abf2b55e82914d5bc5dc870ca63e914d457b784d556d09bdb51913d1",
+    "tests/chapter_04_primitive_types/test_pg_032_reverse_digits.py": "eb1caacf3f9ebcd9d501a84d7fca562323077f5245fe0c4398692d5512e25b55",
+    "src/epi_python/chapter_04_primitive_types/pg_033_is_number_palindromic.py": "82251fd7ccde0340f9b5ff42aa3769e5ca44b058ce91abeb291b98ebbd1dbf03",
+    "tests/chapter_04_primitive_types/test_pg_033_is_number_palindromic.py": "c46a8fa843f8bc995d6199a3ef20f1255832f4639a1b79e8eafa526085cfd80c",
+    "src/epi_python/chapter_04_primitive_types/pg_034_uniform_random.py": "b5e72e6a94f6de95077ba4c82ed004e04d1af9310332741aa1ae7e578eb8241f",
+    "tests/chapter_04_primitive_types/test_pg_034_uniform_random.py": "d3541e8772448b0275b5bcce58040ecd34982ffdec7728fe5b9237b36ccf838e",
+    "src/epi_python/chapter_04_primitive_types/pg_035_rectangle_intersection.py": "cf670d178b551a3d57d4bf31098ed655f106dc52ea270d01588a820f35ba527c",
+    "tests/chapter_04_primitive_types/test_pg_035_rectangle_intersection.py": "53f21ffe42422882545af2035784dc724c5cc2400a1303409bcd4fb3f9541d6f",
+    "src/epi_python/chapter_05_arrays/pg_039_dutch_flag_partition.py": "9c310a23b26385932155ce417bbd854d873fc8601919950500c81145614d0de4",
+    "tests/chapter_05_arrays/test_pg_039_dutch_flag_partition.py": "0e1db1fea8edb9fd8edfa0a26d5916f04ec205a8ef37c9a8b75392942a389d36",
+    "src/epi_python/chapter_05_arrays/pg_043_plus_one.py": "d8011ebd6d0141022f88046524c317ee940122b3ee5adbc384e736052df4e3ff",
+    "tests/chapter_05_arrays/test_pg_043_plus_one.py": "774891c80ec0fe529def683186e42b50a051609ead2129b71b72e79a51287d69",
+    "src/epi_python/chapter_05_arrays/pg_043_multiply_digits.py": "b99c7b8502e90ab1c5f7bfb849a2ea32833d1a531bd4f0a4a0daf7ca63b99d9c",
+    "tests/chapter_05_arrays/test_pg_043_multiply_digits.py": "5c789ddad9e79283825fc2e85d258a74620952401f56cd082caebfebf2d6979a",
+    "src/epi_python/chapter_05_arrays/pg_044_can_reach_end.py": "0d24a67b88a12f7e32371151ecc0dcda21168627e158520938d676ab3741b0a8",
+    "tests/chapter_05_arrays/test_pg_044_can_reach_end.py": "3e2ad0bdce9195bf41f52f5ee42edf55d5e2893ca2413036ae4af2c4ee51978c",
+    "src/epi_python/chapter_05_arrays/pg_045_delete_duplicates.py": "5e6e06932969224d803648ee0e80c66ee5a95becd846ab27465aaadc349ae4bd",
+    "tests/chapter_05_arrays/test_pg_045_delete_duplicates.py": "c673eabbb0cc831ca8ed103431cae9cc3c96baadc69a581b1002133534f6667e",
+    "src/epi_python/chapter_05_arrays/pg_046_compute_max_profit.py": "6f35f9358848538d25cbbdc0800e1a09e30226fe89fa8e62282c242111e19bd6",
+    "tests/chapter_05_arrays/test_pg_046_compute_max_profit.py": "477d9e0f35b4d9cdcfc60edec3891a2a6f65ac0e92af406cd4950d8a6df99dcc",
+    "src/epi_python/chapter_05_arrays/pg_047_buy_and_sell_stock_twice.py": "ab7e052df3d2bddd0c66792b1d4dda98713e85c8bbc8d817b8ad1049eb65e1ce",
+    "tests/chapter_05_arrays/test_pg_047_buy_and_sell_stock_twice.py": "2ece3e95f0dfd1d408357b7c92429ba0ecd7617352d6db64965ef2497a138ab0",
+    "src/epi_python/chapter_05_arrays/pg_048_rearrange_alternation.py": "c77f8e0c1925b54c2ed6f648263974c5aca8e012ee2c905e4637ca26311f7363",
+    "tests/chapter_05_arrays/test_pg_048_rearrange_alternation.py": "911cc64e4688ca885df1435f625e889c40be5db06a75dbc6f1eae7ddf7405e4a",
+    "src/epi_python/chapter_05_arrays/pg_049_generate_primes.py": "7e73abbcdab004822102fc71ccbac80471e8ce147338466057fbb50b25b0b752",
+    "tests/chapter_05_arrays/test_pg_049_generate_primes.py": "66a8350f5535856b3edb338eddb6d1019f133841f97e72edefa0ea686a5295e1",
+    "src/epi_python/chapter_05_arrays/pg_050_apply_permutation.py": "7587e3a65315df3bca6a665a8d2e05b68c74e9accbcb3805b2745bac07502a16",
+    "tests/chapter_05_arrays/test_pg_050_apply_permutation.py": "de5bebba29f77af28e338243e13300d6ae837003de4f786a3b6bb6c65e711633",
+    "src/epi_python/chapter_05_arrays/pg_052_next_permutation.py": "90dc611f3f5e68aee2659610b1ca4c95b77ce39fdc6e9b7e390454bd2a6f2b9b",
+    "tests/chapter_05_arrays/test_pg_052_next_permutation.py": "ad272081315ca91e34a9aab86ed8584c2b5f467823597e907147f2736227bcfd",
+    "src/epi_python/chapter_05_arrays/pg_054_offline_random_sampling.py": "c35173e8a44be096e21edc7abc7a35a84a9974c7c32bb1d105ccaff865e7f3cf",
+    "tests/chapter_05_arrays/test_pg_054_offline_random_sampling.py": "965877d4cb3b364e7710d2a037029c8cf93f43586e647238227cca0510bb1b37",
+    "src/epi_python/chapter_05_arrays/pg_055_online_random_sampling.py": "9715190ad28db86752b0d836129863cb4cd0364ccacb1c7d702c62104a1c53bf",
+    "tests/chapter_05_arrays/test_pg_055_online_random_sampling.py": "690ee5a8a6e213f581e518588e4792f4373dd163bfa794edd159f3a9b26e7582",
+    "src/epi_python/chapter_05_arrays/pg_056_compute_random_permutation.py": "d1b9ccd2e39fcf1851e8c5839454cf1d46b1c83d56dd366d4928d1bba59d7684",
+    "tests/chapter_05_arrays/test_pg_056_compute_random_permutation.py": "5379c5e5e9ee98449d87efcfe8a891fe20732c7dacebd043217a9caaae5c6839",
+    "src/epi_python/chapter_05_arrays/pg_057_compute_random_subset.py": "84385afa78a0b063128715654601098f5e6ee5da1606e544e7de1eb1195655c5",
+    "tests/chapter_05_arrays/test_pg_057_compute_random_subset.py": "056bad38f54c5b29fa05cc12d94c0e85a91eff03657d264719a495a284ee53b3",
+    "src/epi_python/chapter_05_arrays/pg_058_nonuniform_random_number.py": "75ca14e59930f16f4d76e07c54a56f8350d202c53c9df58517841b636ae1e49d",
+    "tests/chapter_05_arrays/test_pg_058_nonuniform_random_number.py": "47e31010d0f41f78b4e38921f0bb4f6d0227c5227f2096f6726ed5850bfb5872",
+    "src/epi_python/chapter_05_arrays/pg_060_sudoku_checker.py": "b473ac3120139a66f19c47334c72d6a36a917015620d8baf183007af78214cee",
+    "tests/chapter_05_arrays/test_pg_060_sudoku_checker.py": "9ef4d533dc24c04539d65cf9270ac74285b60756bd7721ab289ab2614619d49c",
+    "src/epi_python/chapter_05_arrays/pg_061_spiral_ordering.py": "1f6d779df6b1fd0ea1ba91850dae880b570bf6ca58ce881927638d7d6a521adc",
+    "tests/chapter_05_arrays/test_pg_061_spiral_ordering.py": "6ae125bb93541d2880a53571e179544adb9edb47c4139826ef0a94c02c42bb9c",
+    "src/epi_python/chapter_05_arrays/pg_064_rotate_matrix.py": "2ca0dd1bed154e1b64e10910ce3ef3c70dc9a981c6aa8bb85d7ebd9437ac7ac5",
+    "tests/chapter_05_arrays/test_pg_064_rotate_matrix.py": "146314486fafb7277ada7beafdf2b9875c98ef4fae817ac5636131083be570f4",
+    "src/epi_python/chapter_05_arrays/pg_065_generate_pascal_triangle.py": "592e90a1ece306beb36ff9ae59d86853e50f7c2e526155428e9eaab668a0a75d",
+    "tests/chapter_05_arrays/test_pg_065_generate_pascal_triangle.py": "00bdbfdf90b8244e0d22c50c15ddc00ec746fe69995fb326413183991bab428d",
+    "src/epi_python/chapter_06_strings/pg_068_string_integer_interconversion.py": "d96b47d51ed048f76bd364f90dbbfbecdd5b731a725fe9f774a25493f3c8e676",
+    "tests/chapter_06_strings/test_pg_068_string_integer_interconversion.py": "dfb47f3619d7020a3873dcf687199aabdd825f2c5c44c0f2763264aa821de5f8",
+    "src/epi_python/chapter_06_strings/pg_069_convert_base.py": "579636289d474d4b8f532cfeb5c23a8788702890ee3241161b5b69d5ca411dd4",
+    "tests/chapter_06_strings/test_pg_069_convert_base.py": "32c928736f1fbf472ff54ced3ef5bb5446fe8ee92af917d74e6e0d21da131808",
+    "src/epi_python/chapter_06_strings/pg_070_ss_decode_col_id.py": "9669aab907c10720ce00a799d07946fe3fda5b9107ec400466c9c218532ecaa6",
+    "tests/chapter_06_strings/test_pg_070_ss_decode_col_id.py": "66f0c99b3a0d3b84cdab5a91ca26d45bd160a9dde430d5fc4241a619776925f0",
+    "src/epi_python/chapter_06_strings/pg_071_replace_and_remove.py": "fffebaea841811f9c90811a8b7355a415815a9c72873b3351710afa0e48c07e6",
+    "tests/chapter_06_strings/test_pg_071_replace_and_remove.py": "dfa378996aea3eb89bd62855ee6f3b58e338062887a1495d044bc1c924747bea",
+    "src/epi_python/chapter_06_strings/pg_072_is_palindromic.py": "2882068206ade02ae152c0737832a36a328567c175ebef53f183943ed4c19e07",
+    "tests/chapter_06_strings/test_pg_072_is_palindromic.py": "b7486575e203a49451242085f9b2f9b7b1baec8430f7833207527371b2e1582d",
+    "src/epi_python/chapter_06_strings/pg_073_reverse_words.py": "ac5b818334f1b56d596a0826ee60071a7c2a1b7decbfad5374070d5624149bb5",
+    "tests/chapter_06_strings/test_pg_073_reverse_words.py": "930cc83ef6280c91a462f61a797e7cc9d8513e3aee44ec3b818989e3e71335c7",
+    "src/epi_python/chapter_06_strings/pg_074_phone_mnemonics.py": "4c84084d75cbae94933d2e714c0c7b2b0c3d46485eee08e47a2772b3c0ea0d4c",
+    "tests/chapter_06_strings/test_pg_074_phone_mnemonics.py": "b08e1017ec228da7222e74a459e2d3afa34c9598f1435a3d6f37467fc484ad7f",
+    "src/epi_python/chapter_06_strings/pg_075_look_and_say.py": "deb0b12407c2e804e670fd236ea0ffdf875fa467590e12a6059b265a4726c3c8",
+    "tests/chapter_06_strings/test_pg_075_look_and_say.py": "542eca3d9948f6e95a639cf1e0db81dd07779a6da3eaf9dcb158d5fbbfbfd701",
+    "src/epi_python/chapter_06_strings/pg_076_roman_to_integer.py": "1fe50fe4be6fa3a122b5910c9ae1a0e1de651416c04a11dbc453a39527b335d5",
+    "tests/chapter_06_strings/test_pg_076_roman_to_integer.py": "a642ccb766a35ef0d24ff60b904ccc37f382fc5ed0cc1a3b25a58bd69da36054",
+    "src/epi_python/chapter_06_strings/pg_077_get_valid_ip_addresses.py": "d097a401b2251208a582fcf2982a2c10d96ca9dd44e71160c46680942e7f27a7",
+    "tests/chapter_06_strings/test_pg_077_get_valid_ip_addresses.py": "6324476fb82f8eeaee94365f641d38b0f3f818816017ef90df5649115c33f216",
+    "src/epi_python/chapter_06_strings/pg_078_snake_string.py": "37dc5a6db7cc7df414c76cb6493c5b44a5af2abc5fc34fc53746e6fa02840686",
+    "tests/chapter_06_strings/test_pg_078_snake_string.py": "c121133b398f0d962646ecd2dfb64891f35bc496c9a2f887c5937deef0d2b6aa",
+    "src/epi_python/chapter_06_strings/pg_079_run_length_encoding.py": "e785484e43a6ee5d2dc1ac0ef7eb3e2022c85bafb49c28444ac17c8f4229320a",
+    "tests/chapter_06_strings/test_pg_079_run_length_encoding.py": "da0bf5afc2e2904a26d345b5b3e58a6de4c9f4a2b03615c96d420831ab9cfb77",
+    "src/epi_python/chapter_06_strings/pg_079_rabin_karp.py": "b418b088b872bfe327354fde54aa7e0360047d3e3e2a051337381a183dbef9db",
+    "tests/chapter_06_strings/test_pg_079_rabin_karp.py": "b43ae7cd9793b0ffe58384f06d1cd48103f7c5021563bdf63452ded12c46644f",
+    "src/epi_python/chapter_07_linked_lists/pg_084_merge_two_sorted_lists.py": "a1c7404e904d25a10f08d38b368c7519cb77a4d7b7a28efc47b41e68156b9c8e",
+    "tests/chapter_07_linked_lists/test_pg_084_merge_two_sorted_lists.py": "018698ac94266dc85235d58ff54ff0fdb7fc3ca47a05adbfa9cd33c84eae8ebd",
+    "src/epi_python/chapter_07_linked_lists/pg_085_reverse_sublist.py": "d616d7d26ae22ee2436ce02b1c5d8f83d3aaf0890b1be8cd6fd985e1ee4f4a45",
+    "tests/chapter_07_linked_lists/test_pg_085_reverse_sublist.py": "70f5dac470239bce23aa1c30b75bd4c6c2629726bafd597b7da565fa1e03bc77",
+    "src/epi_python/chapter_07_linked_lists/pg_086_has_cycle.py": "1d1c7e8f0179b7881362745a6e18727937046e2c6fe009faac101e9487f05fbc",
+    "tests/chapter_07_linked_lists/test_pg_086_has_cycle.py": "12c5b75e013bfa2dfaaab058a8a3005ba59c9f4c650660e6daed445d2e4b7523",
+    "src/epi_python/chapter_07_linked_lists/pg_087_overlapping_no_cycle_lists.py": "257c0eaddf379bfcf27d4e01c8951c2e019ab93425f0386ec34b782e4e0d3e38",
+    "tests/chapter_07_linked_lists/test_pg_087_overlapping_no_cycle_lists.py": "b073f09f909b0101e55d065054eabc656ef7a66a813cbf078ff085e3c3fbaaf5",
+    "src/epi_python/chapter_07_linked_lists/pg_088_overlapping_lists_with_cycles.py": "ff0851c9d1d95a96ba3212fc8692ea5468b20aa14c078bd7ae8578c295210f8d",
+    "tests/chapter_07_linked_lists/test_pg_088_overlapping_lists_with_cycles.py": "b515ddc8106a25c80a7d0934cd6b845bfbcfead9d59685699420d625e81ce570",
+    "src/epi_python/chapter_07_linked_lists/pg_090_delete_node.py": "5be40c77d4817da26bf382a22c2aaf2c8cb534265d632379e8ea47b418678644",
+    "tests/chapter_07_linked_lists/test_pg_090_delete_node.py": "b09fbcd413767ef00e4b697fc15e85d25e20bd5a6eb8b4ee595a5220007feb15",
+    "src/epi_python/chapter_07_linked_lists/pg_090_remove_kth_last.py": "265230336320cb64bc69fda8c30ab110da3b0535f2f38bd5106fd6d31ca13bc4",
+    "tests/chapter_07_linked_lists/test_pg_090_remove_kth_last.py": "c429f34c375b46e5721172be294e119bed6db250336204d02ea5b5ea121a03dc",
+    "src/epi_python/chapter_07_linked_lists/pg_091_remove_duplicates_sorted_list.py": "6b0975759439f94f5a1ea3f1fbf996c87dcfa43942621e6f5c15c8ebbcd5164f",
+    "tests/chapter_07_linked_lists/test_pg_091_remove_duplicates_sorted_list.py": "471c94e573a0d980358f392b478f673bd30e7198f6d3371e554b6f21407fa13a",
+    "src/epi_python/chapter_07_linked_lists/pg_092_cyclic_right_shift.py": "00b72788d1426f66fb496368ded70b86978a6c06b451bf7bdb2bfab43e179cab",
+    "tests/chapter_07_linked_lists/test_pg_092_cyclic_right_shift.py": "af309846ed100b7c8b65dc83bd959c99f19691c97f1d4ebec416a6221e17059c",
+    "src/epi_python/chapter_07_linked_lists/pg_093_even_odd_merge.py": "0d8bbf30565e6eb170ba45b036ea00dceadd3757357748011afd395b2e7bff61",
+    "tests/chapter_07_linked_lists/test_pg_093_even_odd_merge.py": "27972df7879cfca09bd03fd41af25199d3d05de96a3709424c2903f9c0c290f7",
+    "src/epi_python/chapter_07_linked_lists/pg_094_linked_list_palindrome.py": "4f0c80ec805066617fada253cf9ab1020ddefa932dfbc7b274cc49bcfeb3d74d",
+    "tests/chapter_07_linked_lists/test_pg_094_linked_list_palindrome.py": "71f1fb3dee87b6414ddf33fbf02b57819c29e30dd6e1160b3e3a3e8cbb5f268e",
+    "src/epi_python/chapter_07_linked_lists/pg_095_list_pivot.py": "d28e3a6cae8d3ebc58669034d0eab6a0a331710a3021b2ae11e119ca10fcfe2d",
+    "tests/chapter_07_linked_lists/test_pg_095_list_pivot.py": "62b0fff324998e9c2b88d4eb6d9f222ca421e3867ed99383756cf898335f1200",
+    "src/epi_python/chapter_07_linked_lists/pg_096_add_list_based_integers.py": "aee19e959dcf5995bce67660129a8e00134a19093d71969247631d1843cae53b",
+    "tests/chapter_07_linked_lists/test_pg_096_add_list_based_integers.py": "574d8b1c139728dd6987d0aa835ce0d6162a1aafb6d55f0cfa1d193a01d5d069",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_098_stack_with_max.py": "94b9e7f214c5c2bf1e155d8ee83b544e9198505237d5861f16c3a7b8aec9a9a9",
+    "tests/chapter_08_stacks_and_queues/test_pg_098_stack_with_max.py": "54848e97e029af25047a94fdd39b04e07d820e4bc3b70732b3305cc9a46422d8",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_101_evaluate_rpn.py": "31e47cd8bf0e1d1b9e943cecb5259acb7e5011fa02a93d2b2b3783390f19e23b",
+    "tests/chapter_08_stacks_and_queues/test_pg_101_evaluate_rpn.py": "1fd905859fc444a274113e2e4e2756e043df70242c5972a8e66014fda352987f",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_102_is_well_formed.py": "779541a1b3d7bab7b6100749db858ebcf28a62422e6c77689c8fa3713e70a554",
+    "tests/chapter_08_stacks_and_queues/test_pg_102_is_well_formed.py": "c44b097b6ef702b8581119d1162b5cdde3f97c84b2cec71db3321f1d322eeb57",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_102_shortest_equivalent_path.py": "f3dac1ad7b5dbba6c28f93156be53e280e360300bbcd73098c948665dfa41a06",
+    "tests/chapter_08_stacks_and_queues/test_pg_102_shortest_equivalent_path.py": "dfbd1544638d476017916141f82bfd867276b431d4e0b88c638fc662f9343bb8",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_103_sunset_view.py": "b6174a577a1878f6a359d65873e12d0b630402599fe03db1e6f68b0fe63b7faf",
+    "tests/chapter_08_stacks_and_queues/test_pg_103_sunset_view.py": "930b6af70ea33fc350392a21a9df1a8c3686f2e17449144fd7ef5430289023ac",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_106_binary_tree_depth_order.py": "b838bf7b3fa736ca228600883c812ce7257ddc34a0fa2829cb05507a39e72b2c",
+    "tests/chapter_08_stacks_and_queues/test_pg_106_binary_tree_depth_order.py": "c88ad339892d2b4c3fe702a613471daf49c6e80f3047487e76012ddcb6db592a",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_107_circular_queue.py": "684436c0d69dc83f9fcfbe7c0c54b35894440053e8a8337ac7a2ffa27b985299",
+    "tests/chapter_08_stacks_and_queues/test_pg_107_circular_queue.py": "15cb15804bd9cbbd1065c7830ecf1b922a780b9d4b8cf40897f64c37ac3aeb29",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_108_queue_from_stacks.py": "6d6c9b579adb2449cd3268ae10cbf1407cff2e790b20f783e77f18112bbffefa",
+    "tests/chapter_08_stacks_and_queues/test_pg_108_queue_from_stacks.py": "2f3a3d874e3a4ab71f65401633a8158165728ec375c41e1cc6a8099b13d25346",
+    "src/epi_python/chapter_08_stacks_and_queues/pg_109_queue_with_max.py": "228bcea33881d14e7821fffa48e911eccf4b1420f8c188f9ebdeb89cf32e1a87",
+    "tests/chapter_08_stacks_and_queues/test_pg_109_queue_with_max.py": "3359b6aa04b5013aa34fdfe37de4d4e135b1759c0a39347daabac7947f60f123",
+    "src/epi_python/chapter_09_binary_trees/pg_114_is_balanced_binary_tree.py": "eb61c31eb98c5e7ffa8933d75e068b6b181d51bc3615ed794c3bf17933497782",
+    "tests/chapter_09_binary_trees/test_pg_114_is_balanced_binary_tree.py": "2cd223c8a68af5e475a73b3090960f7fa7c0bf1f4bcbefd0d5bc284b9674e1c2",
+    "src/epi_python/chapter_09_binary_trees/pg_116_is_symmetric_binary_tree.py": "66af5b08351a7ff0cc3390b5ff1f1f87e0586063702eeaacbab56b19d6089211",
+    "tests/chapter_09_binary_trees/test_pg_116_is_symmetric_binary_tree.py": "2c451240828fd8c80ccc28df036a536835c72924e47b37df19c51979d7635281",
+    "src/epi_python/chapter_09_binary_trees/pg_117_lowest_common_ancestor.py": "5b3d5d6caa62f5cb8a89a94019419109c220018592cf03424e608923aeaca9bb",
+    "tests/chapter_09_binary_trees/test_pg_117_lowest_common_ancestor.py": "698620c4908b2ae328657f285d8731e985a58d21d1158d574daa6d2a01787317",
+    "src/epi_python/chapter_09_binary_trees/pg_118_lca_with_parent.py": "b0466fd079ce90ee2910708d98a7fa6d84d4d5a064157fc202e63039530cdf09",
+    "tests/chapter_09_binary_trees/test_pg_118_lca_with_parent.py": "4c5ed41550716589c4a9953e352c66ca91daf8fdc28d7c54477d975715203d7b",
+    "src/epi_python/chapter_09_binary_trees/pg_119_sum_root_to_leaf_paths.py": "6cf93a9ff07f1e4842fed63ff9ab90816a1fc1c32fa00553b632fc025a237acb",
+    "tests/chapter_09_binary_trees/test_pg_119_sum_root_to_leaf_paths.py": "ae686011a6d1ccfebeb8ea88cea069f7d497c1ed5046507164dcf4f16faf6d03",
+    "src/epi_python/chapter_09_binary_trees/pg_120_has_path_sum.py": "5e120fdff89f5fdbc4da1e161ad2c9f3bdc601400c0192e69babd5c03cadcb09",
+    "tests/chapter_09_binary_trees/test_pg_120_has_path_sum.py": "7acb3442025de8a5d711649215875317ab0aa2bc6d90b1e2a4c880df04a79cd2",
+    "src/epi_python/chapter_09_binary_trees/pg_121_inorder_traversal.py": "ba0753d65994bd21dd34eb219a14a4078fc29bb1a5e0d2abda4cbeaf2c24fc33",
+    "tests/chapter_09_binary_trees/test_pg_121_inorder_traversal.py": "5b4819a7040fc7684f064864154a8fe94ce9c2665d79b751510a3c9f78d3f6c2",
+    "src/epi_python/chapter_09_binary_trees/pg_121_preorder_without_recursion.py": "a401cda3e2363f2502274ae3c484d11b9aabfa5711cc258b73723631bcfa6954",
+    "tests/chapter_09_binary_trees/test_pg_121_preorder_without_recursion.py": "aa91488169dbf41e32dd91e916f6bbc10946a4b9d93985f0c1baeb3ac5faa8e1",
+    "src/epi_python/chapter_09_binary_trees/pg_122_kth_node_inorder.py": "3c7e442e4936bab0954739f3719fa777470e4c02d4baa26e3b56b62cf9afd36e",
+    "tests/chapter_09_binary_trees/test_pg_122_kth_node_inorder.py": "67ba7f6ecd71621950e0ad50ef82128901ab1df7e8505b44aed8bb41a4512b43",
+    "src/epi_python/chapter_09_binary_trees/pg_123_inorder_successor.py": "c0f4278b3bc18400614b081c0c11ea13ba4af9e7de46ff99762b2aad2bf8cd63",
+    "tests/chapter_09_binary_trees/test_pg_123_inorder_successor.py": "aa1ad7cec070e955ff82c0c05c8accacffc2e875de1271a02d89e24fc65d194b",
+    "src/epi_python/chapter_09_binary_trees/pg_124_morris_inorder.py": "b5b27c8220038b32b75b9555a5ff94b45c9a965da18bb8a89c90dc0d0be73baa",
+    "tests/chapter_09_binary_trees/test_pg_124_morris_inorder.py": "bb9e8f0aa2bc36e416685d53755f4740a71bad43313f116bdc7c3be06396fe2d",
+    "src/epi_python/chapter_09_binary_trees/pg_125_reconstruct_from_traversals.py": "d9961c61d9056aaddd50f0b8f9c0139a2913d6348db5e426185f6525c5130ba6",
+    "tests/chapter_09_binary_trees/test_pg_125_reconstruct_from_traversals.py": "e1941340e63da5affbb07e5231c9bf783fcf6a469adc17d81945389e29581b4c",
+    "src/epi_python/chapter_09_binary_trees/pg_127_reconstruct_preorder_markers.py": "fd31eef94d53ec4c122c252d8a3696f0d46dec7f5306c8fcf098b4c1802591d9",
+    "tests/chapter_09_binary_trees/test_pg_127_reconstruct_preorder_markers.py": "0f8614101d3ff6d963a4fdec392ea7f4d64729cf40ad51965b9ae1c6bcae031b",
+    "src/epi_python/chapter_09_binary_trees/pg_128_binary_tree_leaves_list.py": "e5e77bd07f758b8e947229afcaad7b7b7036763d70089d0beec9ff5e364e6f68",
+    "tests/chapter_09_binary_trees/test_pg_128_binary_tree_leaves_list.py": "d9bb61eaa5a17404fb034b46c7dbbdadcf4623fa0e10dc6f568e4d7ba9f0f3a7",
+    "src/epi_python/chapter_09_binary_trees/pg_128_exterior_binary_tree.py": "8a5245f11ca8412c78eb6a2556d69ba7f29acef1f9e36388334a0ac2664edfd7",
+    "tests/chapter_09_binary_trees/test_pg_128_exterior_binary_tree.py": "d6b2b0e8b72c5560dfe618d88ef21a99348f1f71a9c6c74d3f151503fce8274a",
+    "src/epi_python/chapter_09_binary_trees/pg_129_right_sibling_tree.py": "63fc71fe60759c8a0ab497022f0e75a979ca24234fe91f1a2ae67fad1b5d25ba",
+    "tests/chapter_09_binary_trees/test_pg_129_right_sibling_tree.py": "6fbab02cd6172bffebf12bc7be33f9b3c9b1614d3aae964be77a2bbba4c7a257",
+    "src/epi_python/chapter_10_heaps/pg_134_merge_sorted_arrays.py": "c1c8553232fdf969d994d81e3adb8ff68317eba67f083a5855d836baf999f987",
+    "tests/chapter_10_heaps/test_pg_134_merge_sorted_arrays.py": "012c3ac44c8997c042f206c278eb6a485f885130830b93e445077178b624ed46",
+    "src/epi_python/chapter_10_heaps/pg_135_sort_increasing_decreasing_array.py": "97e070982768f5979cfe1c08b38bc8dae832738e53478482653267b1b340ca6f",
+    "tests/chapter_10_heaps/test_pg_135_sort_increasing_decreasing_array.py": "4f0a28b5e4f7d6537529e479123179b958040f5d78cc7df8b8846ff8ad202cf3",
+    "src/epi_python/chapter_10_heaps/pg_136_sort_approximately_sorted_array.py": "2c4b1ec7cc06e59ca404ecd57e403fda9077e37ce1f692f4b920900a934bd79c",
+    "tests/chapter_10_heaps/test_pg_136_sort_approximately_sorted_array.py": "65e97061f23c5428b166c8c354b2996eb3cb2eccefd358e5351746bd13a4cd24",
+    "src/epi_python/chapter_10_heaps/pg_137_k_closest_stars.py": "f73f3913e70dbefb1673f28160564d0e7c8edff4762bb0e871b24d9afe98532d",
+    "tests/chapter_10_heaps/test_pg_137_k_closest_stars.py": "bbc30531ad9f2bfd3a49d8520bc3e7b7bde59bc63a2a99b2abb995f8741acfc1",
+    "src/epi_python/chapter_10_heaps/pg_139_online_median.py": "7337c8ea64d0092215b96c4cd998580e439b04bff71a17e4b1403dfb50b5f28e",
+    "tests/chapter_10_heaps/test_pg_139_online_median.py": "ae217c2d1333ab4677b853ad02ffbf380f3dc9a604108ad8dce901c7c41ed3f4",
+    "src/epi_python/chapter_10_heaps/pg_140_k_largest_in_binary_heap.py": "e247cd249468dde6682d44421980b843e90de5a21624ed10c8770472c44509ad",
+    "tests/chapter_10_heaps/test_pg_140_k_largest_in_binary_heap.py": "ae5a8779a5bd15f611384bd038803226585fc10c2839f028d010ddb13dbaf8f1",
+    "src/epi_python/chapter_11_searching/pg_145_search_first_of_k.py": "488febba6e90ca78474914b66f82db27becc90313a8552d0b1d42e72e7ba7f24",
+    "tests/chapter_11_searching/test_pg_145_search_first_of_k.py": "9fdfd6bda3dd5b93f68af723b514ba4389534bf0a50c9df6a12d3c8080c8fbb8",
+    "src/epi_python/chapter_11_searching/pg_146_search_entry_equal_to_index.py": "e4486099f1bfb4de8f55c9c2528986bc3a34eb759ed88700f0756394a4a09b83",
+    "tests/chapter_11_searching/test_pg_146_search_entry_equal_to_index.py": "07b6782ef8f0e8d6e129ab7329a670e61d8767ff98ddca528f4c359cd7565b53",
+    "src/epi_python/chapter_11_searching/pg_147_search_smallest.py": "48e32b565bbf9da9f9f10530e96630268e626579928e1c2742c4ad727c13ff39",
+    "tests/chapter_11_searching/test_pg_147_search_smallest.py": "81a54c81a5863c139e58b5780349070a59d0297d2f4daddc0170cf242d8157b7",
+    "src/epi_python/chapter_11_searching/pg_148_square_root.py": "b2d3b351e4e8b657f6f4c77e1628370f76657abc84544fc36cec7c2e70f7ffe7",
+    "tests/chapter_11_searching/test_pg_148_square_root.py": "50afcb1ec3ddd7a262d26e113a8617ce48f42c2459c88e7fdd52e3a678a85094",
+    "src/epi_python/chapter_11_searching/pg_149_real_square_root.py": "95db5f503eb67094d0b8bd3e9200174e62f15689cdad409631a36127f482bcda",
+    "tests/chapter_11_searching/test_pg_149_real_square_root.py": "be216a306ba3d15dcdb267c13240c26a00b76a98eebf2109f4075604d87659b9",
+    "src/epi_python/chapter_11_searching/pg_150_matrix_search.py": "644ee836f077dc91f45114810ca81ce64e31fbcca0dab5c344e62ec04c84d2f8",
+    "tests/chapter_11_searching/test_pg_150_matrix_search.py": "738115ab24af6b66a02ba667bbf8070a037e66aafedbcb1cc2c9a989d98ca04f",
+    "src/epi_python/chapter_11_searching/pg_152_find_min_max.py": "35b2f87663a97d25a24c8e0eb809539e7289d515f2c44cca322d0f2d83a599c7",
+    "tests/chapter_11_searching/test_pg_152_find_min_max.py": "a0abb01313e2d2a22ed6327e4759332f94a54821548e9ffd214ebd62351b6f5e",
+    "src/epi_python/chapter_11_searching/pg_153_kth_largest_element.py": "63ecd0481c24c01c07ae834b206d28ba1d1e90809b9f6d1f544f0c4bbe6fb5dd",
+    "tests/chapter_11_searching/test_pg_153_kth_largest_element.py": "5d106c7d5b653a111df2cb0eec9d7ae1015b06fb481bb8b7c2c040f15d181687",
+    "src/epi_python/chapter_11_searching/pg_155_find_missing_ip.py": "2c41e42e96b89b939e5d1e4bfeef24a53036e004506129d46da44b556c30d835",
+    "tests/chapter_11_searching/test_pg_155_find_missing_ip.py": "59cb7e54d110798904dbd3be01d945267ba09fdba09519676e6de29e980ccef3",
+    "src/epi_python/chapter_11_searching/pg_157_find_duplicate_missing.py": "6d9ac2c2ee774f864fa2c09d3c3056d4cef9d4a8d5dd6b3d8e63021378b29ca5",
+    "tests/chapter_11_searching/test_pg_157_find_duplicate_missing.py": "ff7f24bef7ac657bc3fa2aa9e6e9bf01729befdfceed7066b48e8077d13450f2",
+    "src/epi_python/chapter_12_hash_tables/pg_163_can_form_palindrome.py": "389acf78b217fbfe646ca10e1e5954efd4b3bbe058137122ad17cfe491c4b348",
+    "tests/chapter_12_hash_tables/test_pg_163_can_form_palindrome.py": "e2dbd27dbb2f611e43138d4dd1c85e3ddd2c8a097ecc992258b9ce5180fe42e9",
+    "src/epi_python/chapter_12_hash_tables/pg_164_is_letter_constructible_from_magazine.py": "9c80fad676f2b2478fe56538fd47c9455a7bf2d9a9e11be425a326ed42a242d2",
+    "tests/chapter_12_hash_tables/test_pg_164_is_letter_constructible_from_magazine.py": "5723ef4f347ea920ce0176e5a6000197f036f13d0bcfea842e631f0ffede824d",
+    "src/epi_python/chapter_12_hash_tables/pg_165_isbn_lru_cache.py": "84476f7736723ab700c513161bb540ea9b87bfdabac6d5501e2ef52a844d15ac",
+    "tests/chapter_12_hash_tables/test_pg_165_isbn_lru_cache.py": "a9029f932dc01feabe784ef27948a6a685a72b489aea618664732733979e0e86",
+    "src/epi_python/chapter_12_hash_tables/pg_166_lca_close_ancestors.py": "f7d822d302e56c7b0cc0888ffce4b8c5e512cbfecf3f6d0c0f88fdb3acf8b477",
+    "tests/chapter_12_hash_tables/test_pg_166_lca_close_ancestors.py": "f39c1759b438ad758c36683901c2e78d1fa4ad26d00392ddbb9b6693ca2476ee",
+    "src/epi_python/chapter_12_hash_tables/pg_167_find_nearest_repetition.py": "3d7cfa8cf5b6e8c305df1389aba302f42ec11c24ca681f48a0f4ad8971d2951f",
+    "tests/chapter_12_hash_tables/test_pg_167_find_nearest_repetition.py": "1d84eae9dff2ede5fa87ef24a903915d22cdb1b2cd10d788186716efde7d4e1a",
+    "src/epi_python/chapter_12_hash_tables/pg_168_smallest_subarray_covering_set.py": "e1e064e2740864b02b255f317a68b1fd60bbf482c2a80cade239c9575bb99112",
+    "tests/chapter_12_hash_tables/test_pg_168_smallest_subarray_covering_set.py": "954addea1891b1aca9a9758ab96ff3a355d98d6421032803a49194415560e00d",
+    "src/epi_python/chapter_12_hash_tables/pg_171_smallest_subarray_sequential_cover.py": "88d52bc3969c149f8983eb56d33b2b96715dc1360232d7d786320514bc65a5de",
+    "tests/chapter_12_hash_tables/test_pg_171_smallest_subarray_sequential_cover.py": "c5a9008b053bff41404c4ac5465c02918356dc2e1332bfe19a26f9b1dadadc1b",
+    "src/epi_python/chapter_12_hash_tables/pg_173_longest_subarray_with_distinct_entries.py": "5bfb9a0317cf33303d289a195d8465a0da928a47826dc88964eef8f5a02f6dd4",
+    "tests/chapter_12_hash_tables/test_pg_173_longest_subarray_with_distinct_entries.py": "e07c9af43ca13b9613416b5489ffff101e54bdb1f4800475b743aa0afbb213bc",
+    "src/epi_python/chapter_12_hash_tables/pg_174_longest_contained_interval.py": "dc45fd5385db407ffbb26c5232a31428a798ff2c75b1d78e593d2bc81d7ff13e",
+    "tests/chapter_12_hash_tables/test_pg_174_longest_contained_interval.py": "517a5bd4c5a87d96ae29c50cabe40c3f1aa5ead2d6094655ba6d92a7934cd326",
+    "src/epi_python/chapter_12_hash_tables/pg_175_string_decompositions.py": "6f6b936c0e9e523df81919488c14f302acb951430cae99ed13e3762473ecbb49",
+    "tests/chapter_12_hash_tables/test_pg_175_string_decompositions.py": "37ee5a1d3eea81fb4a89301a9e3ce359321045a928fd6e797180bbfbe7d972d0",
+    "src/epi_python/chapter_12_hash_tables/pg_176_collatz_conjecture.py": "cfbecb857d4f1e6ff1e4cea63c83d7d257d83a75f62d0ab6acbc1a7bb697b7eb",
+    "tests/chapter_12_hash_tables/test_pg_176_collatz_conjecture.py": "0b21535ef9f48c9654c4570e341b7b3dddbbb848bb2ade580d84ae31caabb002",
+    "src/epi_python/chapter_12_hash_tables/pg_177_chess_zobrist_hash.py": "5cc7cdbc86e1be40499b983ac2baea73228a479f0577500d88e7c7831592a78f",
+    "tests/chapter_12_hash_tables/test_pg_177_chess_zobrist_hash.py": "0a5c53b7c424e3060bbf15f5926919c03676f2006d9814ce36a55a94aa44ef34",
+    "src/epi_python/chapter_13_sorting/pg_182_intersect_two_sorted_arrays.py": "2d0f8033a67b6888d8d4936f6689f6cff1ae03081d3ab9c9811335580d63a78b",
+    "tests/chapter_13_sorting/test_pg_182_intersect_two_sorted_arrays.py": "e0a45db17f94f6f5f8603f68fda43cc1e353e5a88cbd5c8a27f1f2a6e17caa40",
+    "src/epi_python/chapter_13_sorting/pg_183_merge_two_sorted_arrays.py": "92647151f3761d8509911943adc2c833e60b3198fe29ee09911189119f893142",
+    "tests/chapter_13_sorting/test_pg_183_merge_two_sorted_arrays.py": "8ba46fc6e171a77f83fd76bd052730e4b330dfd25b0e656ef874aee722fc71bf",
+    "src/epi_python/chapter_13_sorting/pg_184_eliminate_duplicate_names.py": "c5650d9aef8ba9405d59d3516f33c8995f65f538419407a79ce71d2504c87e81",
+    "tests/chapter_13_sorting/test_pg_184_eliminate_duplicate_names.py": "60a6253692a911e5d93b344369e84ae04d101d9063453d7747f2a2264a96ab3b",
+    "src/epi_python/chapter_13_sorting/pg_185_smallest_nonconstructible_value.py": "3c5676c04e967067fa56048eb7899fde129e97a3f186c15af706b171af0e4a44",
+    "tests/chapter_13_sorting/test_pg_185_smallest_nonconstructible_value.py": "877640c908f379ea0080203090542fa77f80ba1bfe8e82e27e814f6db366bf33",
+    "src/epi_python/chapter_13_sorting/pg_186_find_max_simultaneous_events.py": "ad2d0c30330118f06f7e747bbfbfd3067878d0e3a61fab8dbd7ee8feb1e5cef1",
+    "tests/chapter_13_sorting/test_pg_186_find_max_simultaneous_events.py": "07cf233fb7de6b865cad5dce0686fad5d14e8c511d8a45f4340017f0b5f7aaa5",
+    "src/epi_python/chapter_13_sorting/pg_188_add_interval.py": "851c0280acc20187dd77cb0bb840320ddb03cd635c94a6dd06e424b614b31b38",
+    "tests/chapter_13_sorting/test_pg_188_add_interval.py": "ddf6fce7de2741f8b7d2124c6a9e144a7e8d1ce834caa907357fcd725220329d",
+    "src/epi_python/chapter_13_sorting/pg_189_union_of_intervals.py": "8a1eefc94d2f87d1b5e1ee569c75757fb9967ecca040ebbfb00bd776e3e70dbf",
+    "tests/chapter_13_sorting/test_pg_189_union_of_intervals.py": "d1442ebb88758052c3d00d981077111feb6256ef917f7770527e762ab6ef2ae8",
+    "src/epi_python/chapter_13_sorting/pg_191_group_by_age.py": "5a396ddbe3bfd3dd01536c8fb6003db6436b365d603b4be1572cc7e2bb66387a",
+    "tests/chapter_13_sorting/test_pg_191_group_by_age.py": "23257222963ca8c90071c68317ce481634ebb592b2fe8abb696a6f6a5c3647dd",
+    "src/epi_python/chapter_13_sorting/pg_193_team_photo_day.py": "454285db6143309718e4544e581cfb2205dbe9ccf76886661b359bbd3999fcd5",
+    "tests/chapter_13_sorting/test_pg_193_team_photo_day.py": "beea5fb75962a69466f2a8386ec89ee207749c5fe380b51ff732d140bd9119ff",
+    "src/epi_python/chapter_13_sorting/pg_194_stable_sort_linked_list.py": "665c2d3630024a59af888d61ecd4218113c09a46cf0151c5d32b7470fcbca7f7",
+    "tests/chapter_13_sorting/test_pg_194_stable_sort_linked_list.py": "9a37abc162606bec240718134b354d3040de6c91fc819894ff4c16423dfd9d72",
+    "src/epi_python/chapter_13_sorting/pg_195_find_salary_cap.py": "e424205d89a4c6f2f10640653ef9ad3256157b6a4d1710455956a77d561f3f21",
+    "tests/chapter_13_sorting/test_pg_195_find_salary_cap.py": "ca531b3d7772ed8c7826a5eeb4195b90e58e8f8c789bc38677ca61aab60692c0",
+    "src/epi_python/chapter_14_binary_search_trees/pg_199_is_binary_tree_bst.py": "54cfb2f5f545f059949156d870f8a893d8d36126885446f3aef1d2c80f12de99",
+    "tests/chapter_14_binary_search_trees/test_pg_199_is_binary_tree_bst.py": "9e12eafdabd0d2ddd0413d8c93f32daa96fa718f1753ef93b67f2f64d1b45839",
+    "src/epi_python/chapter_14_binary_search_trees/pg_201_find_first_greater_than_k.py": "394ce0f598f7a95e9b46ee1b1ca15aade8a3779391fdd08bba14cb3658bd90e6",
+    "tests/chapter_14_binary_search_trees/test_pg_201_find_first_greater_than_k.py": "80baa0dd4f28e939504196f5ffbb5f2a0eaa3addebd8ab6fc5d82044f69a4e91",
+    "src/epi_python/chapter_14_binary_search_trees/pg_202_find_k_largest_in_bst.py": "60a39d61d1a79c41e0b07ccc29b739c774fb07f48fe0b44bbd0e185a74951490",
+    "tests/chapter_14_binary_search_trees/test_pg_202_find_k_largest_in_bst.py": "ca774129a1a4bf46eabdf30bd3a1ea52abdfe99aded4c9996182b299cd92aeb3",
+    "src/epi_python/chapter_14_binary_search_trees/pg_203_find_lca_in_bst.py": "62a151225c0263771a9d8012d57a7aefcb3f492742a625293789956f01afd54e",
+    "tests/chapter_14_binary_search_trees/test_pg_203_find_lca_in_bst.py": "8f769c4c0f2ea828daf321339560ef9aba25e62b18a83b5938be448852ad6a9c",
+    "src/epi_python/chapter_14_binary_search_trees/pg_204_rebuild_bst_from_preorder.py": "919c435f12efb41033f5eb3fd037a7c21d651e6e46165c0213f7af2984b326ca",
+    "tests/chapter_14_binary_search_trees/test_pg_204_rebuild_bst_from_preorder.py": "6bcb57bcce9174b4572882acd10fd707cf0ba5b31e63a2b7b23ae6836a09a30d",
+    "src/epi_python/chapter_14_binary_search_trees/pg_206_find_closest_elements_in_sorted_arrays.py": "c70446e3a5724c564ce42f1bea85b4b281135363ece05d46247d5ef9910338c9",
+    "tests/chapter_14_binary_search_trees/test_pg_206_find_closest_elements_in_sorted_arrays.py": "d23abaca3eb4a6aaeda03edfdbe5324ae3a5a833cbf090a6fcc312593d10732c",
+    "src/epi_python/chapter_14_binary_search_trees/pg_207_generate_first_k_a_b_sqrt2.py": "05517af287a25f792e8726f3399e8cc92602a95f6fe554875d440bf6ceb6ef84",
+    "tests/chapter_14_binary_search_trees/test_pg_207_generate_first_k_a_b_sqrt2.py": "b981e8f09fc3b4c6e088880295997adf7fb027cb0e8c22a42d9add32e011021b",
+    "src/epi_python/chapter_14_binary_search_trees/pg_210_build_min_height_bst_from_sorted_array.py": "680c39aff23f534f2462db77b9821433743c8d912103a2494ede08f49383bb95",
+    "tests/chapter_14_binary_search_trees/test_pg_210_build_min_height_bst_from_sorted_array.py": "eb20eb80a16d2c6276deafae07337f55fbf8cc67188d7fd30701e7a38b54d52d",
+    "src/epi_python/chapter_14_binary_search_trees/pg_211_pair_includes_ancestor_and_descendant_of_m.py": "d257123f7b480f84566dc8e064f324b9c18fa646c2ac578ac2648c31e82b13a1",
+    "tests/chapter_14_binary_search_trees/test_pg_211_pair_includes_ancestor_and_descendant_of_m.py": "e46da67f8abe06bf607b0334bfcf29c7c21b30f1ba3dc5491079bf13fc8aa91b",
+    "src/epi_python/chapter_14_binary_search_trees/pg_212_range_lookup_in_bst.py": "c867f44143d2bfdc7429d8aab0ea91ef01b8d2842390aed52770c7f861693cc4",
+    "tests/chapter_14_binary_search_trees/test_pg_212_range_lookup_in_bst.py": "f1a14d1bf36561fd3bd3ba603b14c073db83627d68f5c97f693db559c967fdb1",
+    "src/epi_python/chapter_14_binary_search_trees/pg_215_clients_credits_info.py": "263ccfd64d89d39512253adcc8f52fed0d5b50b0632ab333436f66d951b0730e",
+    "tests/chapter_14_binary_search_trees/test_pg_215_clients_credits_info.py": "3f69d050f30c9d916ca368401dcecd7f623b7c85c317fbb3b6412d96b0a8d658",
+    "src/epi_python/chapter_15_recursion/pg_219_compute_tower_hanoi.py": "4ea77ce6d2b48ee93826d42b4641f90b664ce3bf3fa5cc002ae0bf316e549b23",
+    "tests/chapter_15_recursion/test_pg_219_compute_tower_hanoi.py": "cd569571062a47e855cd9aba8d00e643268e0ff124d46ebb1dc62afbd328d658",
+    "src/epi_python/chapter_15_recursion/pg_221_n_queens.py": "fa497fefbc400f6dbb4be22d3fe9ea25a7f5413442fb3567ff52a1a6f2847a54",
+    "tests/chapter_15_recursion/test_pg_221_n_queens.py": "f05935b94f9e7094c2804473da6d8551ea4723e794134bfe5429a77d69edac12",
+    "src/epi_python/chapter_15_recursion/pg_222_permutations.py": "e8cbd188967ca900bca935dd09fea16eba45d8eefd32582fe2fe22500847a9e9",
+    "tests/chapter_15_recursion/test_pg_222_permutations.py": "67f7a1790b2c1ba5920f02522f0252bee39eb9c2902de083d3f6490b62bcb963",
+    "src/epi_python/chapter_15_recursion/pg_224_generate_power_set.py": "c2c3d6b74c0093b6aa353621be7a96de5181b162477617d6f23a409e1f7c4ea8",
+    "tests/chapter_15_recursion/test_pg_224_generate_power_set.py": "e0e4ea9f14eb69402fa25bf8689dedbf8c7b3535e48f4fe378ea3203630ac1d2",
+    "src/epi_python/chapter_15_recursion/pg_226_combinations.py": "8a3d24e1124bca75141675affff7679b74f394ef58779381a8e62c38242f022b",
+    "tests/chapter_15_recursion/test_pg_226_combinations.py": "4d08d52e105d8608cf7b24141128bf7dd90bc57d20ad025b8b70f3ccf1c8f745",
+    "src/epi_python/chapter_15_recursion/pg_227_generate_balanced_parentheses.py": "6f47bc083f2167379251a40b7c6a4e1b0a8becc05dec1184e5c1b992d1cc2df3",
+    "tests/chapter_15_recursion/test_pg_227_generate_balanced_parentheses.py": "3b536d395d833cfa0d5d7e1ff7ce16220979e8d4e3146bf254d1bacf85d931c5",
+    "src/epi_python/chapter_15_recursion/pg_228_palindrome_decompositions.py": "558d916ef4bb9aa50ebb40f4606c64a4bf553069d0527ff6d1b3634e5dac9788",
+    "tests/chapter_15_recursion/test_pg_228_palindrome_decompositions.py": "1cb4c2e8970a0cf0e5b9206cce1d258fd1fb36f637099a0febd4f95f4874ba8f",
+    "src/epi_python/chapter_15_recursion/pg_229_generate_all_binary_trees.py": "d7245664e8689998f9df3e2e70b77562ecf563fb2ee982fc3b580c351e68041c",
+    "tests/chapter_15_recursion/test_pg_229_generate_all_binary_trees.py": "e3560434d4fdef20c548d05508551732d9542c4eda4f4958f5b33a5daa4d23af",
+    "src/epi_python/chapter_15_recursion/pg_230_solve_sudoku.py": "e1db6a46e587e79ec9d109c482f9148c63be379313701de74b52096f6623ac3c",
+    "tests/chapter_15_recursion/test_pg_230_solve_sudoku.py": "f2e9a11daec08d0851baf64eb8bd8f1d072cdd31a0da2f168a94b78f5557dcbe",
+    "src/epi_python/chapter_15_recursion/pg_232_gray_code.py": "70b5714608cbcb7a60298b18c1c6a0ba8f67422cd0a36401dd6f8fef8ecf8cba",
+    "tests/chapter_15_recursion/test_pg_232_gray_code.py": "b6321beb90f19d380ae6a7e70aee004d0f9a07ed44c7767c63dc285cb2806ffa",
+    "src/epi_python/chapter_16_dynamic_programming/pg_236_num_combinations_for_final_score.py": "22b2d553d73deb905c35515b1dff60ab986c3953d2a57030746192bfeb9b1850",
+    "tests/chapter_16_dynamic_programming/test_pg_236_num_combinations_for_final_score.py": "6482cd98627c7e4dc7f4c7679c58f467626bd63ed3c3e5afd52fbd777e26e5b7",
+    "src/epi_python/chapter_16_dynamic_programming/pg_239_levenshtein_distance.py": "62698671d867bc991bdd8955d5a21f8048b004e82c3530e12a263fdcf204faa6",
+    "tests/chapter_16_dynamic_programming/test_pg_239_levenshtein_distance.py": "8ba940eac24356fe3a9bcd5c30f15129327dd61707fe5953add2d8c2b0ad3111",
+    "src/epi_python/chapter_16_dynamic_programming/pg_242_number_of_ways.py": "7773b71e5f1a17d467d03384c7c2fcc43658a982051e428dd3c7f9d8a6d8f04b",
+    "tests/chapter_16_dynamic_programming/test_pg_242_number_of_ways.py": "d9311288b0297a5cede368f8c20ff3c385b10cc92b8d7787fb49f40a78595a80",
+    "src/epi_python/chapter_16_dynamic_programming/pg_244_compute_binomial_coefficients.py": "782982cf650e79a4d9596132ab586a557b8005fb6cc51119bc0922ff3dc8da40",
+    "tests/chapter_16_dynamic_programming/test_pg_244_compute_binomial_coefficients.py": "e0df51a69c3b96b867a313a91a3d94b0ce2ef58a91b16f908be24ff38786b632",
+    "src/epi_python/chapter_16_dynamic_programming/pg_245_is_pattern_contained_in_grid.py": "e95043be35b053963be7f7123b7356d6106973c17f2355d7a9dc6389b0be83cd",
+    "tests/chapter_16_dynamic_programming/test_pg_245_is_pattern_contained_in_grid.py": "7a8c456496674a3f24bf126720f3bda912e26c4f0e1a07bc3e99942ac7af0255",
+    "src/epi_python/chapter_16_dynamic_programming/pg_246_optimum_subject_to_capacity.py": "198cc958219d98be38ca45101657bdc06ff80c2ea1b68e696cd331e3f261f07f",
+    "tests/chapter_16_dynamic_programming/test_pg_246_optimum_subject_to_capacity.py": "53c8efed9e79f630b958d762c3db126734b0b70e74219ea62397416f2bae1df8",
+    "src/epi_python/chapter_16_dynamic_programming/pg_249_decompose_into_dictionary_words.py": "a2688b5ad84f45027356280a700921e2dbf89c7235c53c82463c84a3a4ce99ea",
+    "tests/chapter_16_dynamic_programming/test_pg_249_decompose_into_dictionary_words.py": "2f60c271cab3eab8eaffbfd70f9b643b63809f66ee17200d4a344baa759d6986",
+    "src/epi_python/chapter_16_dynamic_programming/pg_251_minimum_path_weight.py": "583b9af4a3e98f664b2e0c3aedc374008bfcb57a732997a6771e65d792a69fef",
+    "tests/chapter_16_dynamic_programming/test_pg_251_minimum_path_weight.py": "80fb9cb876a6d525ab581df9574382eaca2b9e2402358dde53fe7c84ddac7460",
+    "src/epi_python/chapter_16_dynamic_programming/pg_252_maximum_revenue.py": "4f68d0f59c377419d05b92ec9e3740dad31a556f585e5d99f55aa47c12188e1e",
+    "tests/chapter_16_dynamic_programming/test_pg_252_maximum_revenue.py": "94db6607732ba1f9b8b424654e7b0ace48ebe15032cd928a9dc015b800e65212",
+    "src/epi_python/chapter_16_dynamic_programming/pg_253_number_of_ways_to_top.py": "b13b5f163708896793883a71f7aa4eef43f09fac27087f3251222c797a575822",
+    "tests/chapter_16_dynamic_programming/test_pg_253_number_of_ways_to_top.py": "ff1fb12491b2fbd35709130cf6ea3029ca6708475125ef219b6245121879904d",
+    "src/epi_python/chapter_16_dynamic_programming/pg_254_minimum_messiness.py": "8cc58dc1b53d989d43c4a7a9f5df9384a3c7c5a4c4cff8045bd2383259513edb",
+    "tests/chapter_16_dynamic_programming/test_pg_254_minimum_messiness.py": "a6386619133a395e4af27064c8d646461d19ff48c82982c2d26bcc8564622b6a",
+    "src/epi_python/chapter_16_dynamic_programming/pg_257_longest_nondecreasing_subsequence.py": "19deec695662d11555c06804ffe5552e8fb8a5022b14a91cf8787048bd2f4a96",
+    "tests/chapter_16_dynamic_programming/test_pg_257_longest_nondecreasing_subsequence.py": "33a5ef8963ff9cf8418f817824c2763741d57091d5c241adaf5c80e0ee8aba6b",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_260_optimum_task_assignment.py": "a75c802881415665f795250b86c26686332f6d27d090fb633939b26a86b8b7e1",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_260_optimum_task_assignment.py": "1a31bc42a2a065501e96292a1ba39c6723a37356896c5d547a3978a0529d8b2e",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_261_minimum_waiting_time.py": "83ef8721a4a58f2c1ee47f02d85600eaa438b1d9886406600ed230c48c38b4f3",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_261_minimum_waiting_time.py": "d890f7d3c7bbab80c4b1efb44a89a8b886b183548d974f5ee7067cd88e3abd9e",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_262_find_minimum_visits.py": "16d0e5de9ae17ef3669acd92f7161be9b30354bfe855058886436b115fc68aba",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_262_find_minimum_visits.py": "cc252d50e2715f15e017d43a3c4e7b417b5acc99629166e0cca9df592430d30f",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_264_has_three_sum.py": "f8b8f95c8b5c0a1245833e982bd0d7be711615b75d9f025cbcd6da353e5609aa",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_264_has_three_sum.py": "5991d86223ff16ddb46ba01fc885100c75fac1dd6151b98afaeba5dca245a1eb",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_266_majority_search.py": "554942980cd0d8d3e2c367b21c1b8a30c3a50da3c0b0ef92ce4ab8d7e5ecbe8f",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_266_majority_search.py": "151b6363272595e8469d0fd20305e7e72b31aee6970aa224184d4fd9a90fda10",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_267_find_ample_city.py": "be9c54458c303f9bc70c71e0a714ae9dd9e46dd575109962bec70d605b84414d",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_267_find_ample_city.py": "02e0e3bf3a08b8dcfa598aaca4437a184f6d71777640e10bc4429120b5edc624",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_269_max_water_container.py": "4e9447e11876c58a863b42582f2d8a0e9fd06f9087820e91b146ab72b8d8ff87",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_269_max_water_container.py": "67dbfb2050a998b86346a7ff827fce6d0de4ea364ab7c42315ef0ae5920535f0",
+    "src/epi_python/chapter_17_greedy_algorithms_and_invariants/pg_270_largest_rectangle_under_skyline.py": "cbc2c3019d35c47583fa0e505a62a1be533464f6e3dadff122b140a4d816b3b4",
+    "tests/chapter_17_greedy_algorithms_and_invariants/test_pg_270_largest_rectangle_under_skyline.py": "76adb7e0b2d55c7c4caa1ecb425c8ba0f2f89e72421cf1a5cf24c83840eb51aa",
+    "src/epi_python/chapter_18_graphs/pg_276_search_maze.py": "6a83cc261e3aa27d444447c295958dfe600f65798fa14faf809bb2c40b51b6b7",
+    "tests/chapter_18_graphs/test_pg_276_search_maze.py": "bfdf147ee14cf9ea28f851e18cd91c2c51d095e4c0480d340980ad44f83402e8",
+    "src/epi_python/chapter_18_graphs/pg_278_flip_color.py": "b13825e6300510b34d11d9eeb308f799c4ca7e733aac96da3f57593dce1e3495",
+    "tests/chapter_18_graphs/test_pg_278_flip_color.py": "95c82948c0bba4ac72d83905c7e7cfb19e678118460457a8e10c218dbf224f31",
+    "src/epi_python/chapter_18_graphs/pg_280_fill_surrounded_regions.py": "d238587d2760e97d193bf84ecd0f3dfa8ae6b4c2891464cc9c05e30ec3d40b96",
+    "tests/chapter_18_graphs/test_pg_280_fill_surrounded_regions.py": "23223fb15e030a88b0f24667568a0fdd6a8f69760a1c8779f67fb72e7d52039c",
+    "src/epi_python/chapter_18_graphs/pg_281_is_deadlocked.py": "8f165ba3472c8596394c5bdab27dbc0e65705e0690278456edc0c6b063c5e5d2",
+    "tests/chapter_18_graphs/test_pg_281_is_deadlocked.py": "b141e4f076e8958c7cf7e20c7350059b6edd6a47762dc4acb9b9c2567d5579b0",
+    "src/epi_python/chapter_18_graphs/pg_282_clone_graph.py": "c1850af986c487e26bd4267f5804fffaf26ae63ec7b699bf907dfaf7ecc86bce",
+    "tests/chapter_18_graphs/test_pg_282_clone_graph.py": "440dfc8ca98cc1679d47b61ce27fa1377d18a02603dc3504b3e8e714e516c632",
+    "src/epi_python/chapter_18_graphs/pg_283_is_any_placement_feasible.py": "b5d5e4083567f25b75d3fb7e6f077bc1b2a40ca79476fb51902b3a8fbe1b1611",
+    "tests/chapter_18_graphs/test_pg_283_is_any_placement_feasible.py": "d28315d34b21c1773ce4d332ee5fd8a5de3915df26e0c5420479069ae75e312e",
+    "src/epi_python/chapter_18_graphs/pg_284_transform_string.py": "581e522adc86c2b39a5dc8c55ec864825f650b5aeb52c707d8cf860fd23016fe",
+    "tests/chapter_18_graphs/test_pg_284_transform_string.py": "8ab5b2d87878c4f33c39b2acd6760d8effafcc1925251de4118cc2c0d8d3de59",
+    "src/epi_python/chapter_18_graphs/pg_286_find_largest_number_teams.py": "c1e67f0f6622bced9fdc7cbed5e011657d5826412f07b988402a3a4a1a18105d",
+    "tests/chapter_18_graphs/test_pg_286_find_largest_number_teams.py": "6ea92ea37b751e3fe0fb935c2984d30372c849c72ec8faa7b070b42f529b5db9",
+    "src/epi_python/chapter_19_parallel_computing/pg_291_spell_check_service.py": "36c9182878fba8c392c784c851faca0f8e7173c2bed064cd44f0a0b1d5a1e7ac",
+    "tests/chapter_19_parallel_computing/test_pg_291_spell_check_service.py": "1c82d4f1934d812e62eac250744851f7036fadb22361c7862a78aaa12b0f9539",
+    "src/epi_python/chapter_19_parallel_computing/pg_292_increment_thread.py": "5efb872a185eeec2d9979fa6b2c5dd40e79d48f81f6721ebb133fc8b2e15060a",
+    "tests/chapter_19_parallel_computing/test_pg_292_increment_thread.py": "b78dfa5d9c96ed0d783a5700d6221caee79641b2cbe4224402dc93af61b8efac",
+    "src/epi_python/chapter_19_parallel_computing/pg_293_odd_even_monitor.py": "073f87a0523751b07648f8dab081c67eff36286a44b03ae1e72265f69aa0ab0c",
+    "tests/chapter_19_parallel_computing/test_pg_293_odd_even_monitor.py": "559198b94b4cabd0ec567d683a42b451e3291c6b6537363704772f51b0c2141e",
+    "src/epi_python/chapter_19_parallel_computing/pg_294_thread_pool_server.py": "67ee9d29314b0feea3124deec1ebbf6a1090b74a3440632dd278dd2f1f4fda88",
+    "tests/chapter_19_parallel_computing/test_pg_294_thread_pool_server.py": "541a81ed2dde964cb368d20cfe35b30895d372db57961cac64a91172fb697de5",
+    "src/epi_python/chapter_19_parallel_computing/pg_295_account_transfer.py": "2f7ab0fe97a2fefb64d3dcc1a93055be7287c64acc56bfe2f204e0a9d2dca2fa",
+    "tests/chapter_19_parallel_computing/test_pg_295_account_transfer.py": "e25e75a1e258f11969f0fb215694beab7a6b1c48269685fc994ef03c9c971b07",
+    "src/epi_python/chapter_19_parallel_computing/pg_296_readers_writers_lock.py": "5e1a682f73cb57f9f755b56fd7396f9697d3dbfe237dc78b93c6fb748b80feba",
+    "tests/chapter_19_parallel_computing/test_pg_296_readers_writers_lock.py": "154496eef51c13a7b64ee58d675c7ea95ea7f0a90dafa10649be0b823c750563",
+    "src/epi_python/chapter_19_parallel_computing/pg_297_writers_preference_lock.py": "670a6ab78963a4b5860ed9cb419946787b9ac43d2ca97536aeceb0f912b6dacf",
+    "tests/chapter_19_parallel_computing/test_pg_297_writers_preference_lock.py": "140815d6179d06925bebc230280ca035ca681789ebf0c3b0095799b7df444a50",
+    "src/epi_python/chapter_19_parallel_computing/pg_298_timer_class.py": "f5bf15d068cf9f303373b20cf9c2f651542c84fa13e8cdf4dc14845304d4a94c",
+    "tests/chapter_19_parallel_computing/test_pg_298_timer_class.py": "9e361d75628ec806c8b789338bd97ee3c85cd95af364ed9e83279e8907595a73",
+    "src/epi_python/chapter_19_parallel_computing/pg_298_parallel_collatz.py": "4e074b47c82570e1e0142d979188e20835646992156dee926912a4d6dd516fbc",
+    "tests/chapter_19_parallel_computing/test_pg_298_parallel_collatz.py": "23707a280ad1803634f32b914d13a0d2961a01dc538b2808d2ba460a05498420",
+    "src/epi_python/chapter_24_honors_class/pg_351_gcd.py": "462efe634438ad653fbe90b734bfabfbafed0d53695ed35f144c137dddfea952",
+    "tests/chapter_24_honors_class/test_pg_351_gcd.py": "5b9d0ffbf42396df59ab30db69659927b6242517d685fad74c669332c0035b7b",
+    "src/epi_python/chapter_24_honors_class/pg_352_first_missing_positive.py": "ccf65ee0b5af2431dc714642b85df965aa0abe87a4adcf34daba6c1d06ac5ff7",
+    "tests/chapter_24_honors_class/test_pg_352_first_missing_positive.py": "8fde03dbb6654c52e30d1504dfc659dd66236e90da884264ae608d43feb03243",
+    "src/epi_python/chapter_24_honors_class/pg_353_buy_and_sell_stock_k_times.py": "2ac7c979625c5f0c4b7843aa9da9faafce4d8f425bd65a01f642a146ff90a4e7",
+    "tests/chapter_24_honors_class/test_pg_353_buy_and_sell_stock_k_times.py": "3a2180dcc9865ee249f24d6eab4b6b58aeae0e7d077e9ec30f2bee2a78d5b51b",
+    "src/epi_python/chapter_24_honors_class/pg_354_find_biggest_n_minus_one_product.py": "e83f085708a235a3a44a2276ec63da77e6d16d62d9582f300d3f28a886e7a36e",
+    "tests/chapter_24_honors_class/test_pg_354_find_biggest_n_minus_one_product.py": "ec44561931c8feeef4bb3c763f48eef477a0678d7a6f98954530e62d2a2c6aeb",
+    "src/epi_python/chapter_24_honors_class/pg_356_find_longest_increasing_subarray.py": "d6cbd5451e89d7f09d367293777402f613e795d07eff4231bb08778f5447640b",
+    "tests/chapter_24_honors_class/test_pg_356_find_longest_increasing_subarray.py": "d5798d196350dc2aaa32bb45dd25c07bf9b4f0c0ad43f09d481e1714ab7a1e2e",
+    "src/epi_python/chapter_24_honors_class/pg_357_rotate_array.py": "7dfa309f549463dedd0095884278a6a4bcc0c0c16a67a2b6aec67aff88984435",
+    "tests/chapter_24_honors_class/test_pg_357_rotate_array.py": "39b08d0f9d07a611e204762f6510dd626dbf3fef1c4fc2fbe284cda79548e3da",
+    "src/epi_python/chapter_24_honors_class/pg_359_rook_attack.py": "8e29511a108f1e0f7ab032d43dd188e978b41c4debd5c4da254dc39fcf10af3e",
+    "tests/chapter_24_honors_class/test_pg_359_rook_attack.py": "449e02d51603e16e8e781a673bb4e58cddeb857883d2c5d9e9cb17faada4e305",
+    "src/epi_python/chapter_24_honors_class/pg_360_justify_text.py": "3a409c561f5d139f4a6f26877c2c4c524bc1c1dfc7915bd5f9d51fdb1ae8fd22",
+    "tests/chapter_24_honors_class/test_pg_360_justify_text.py": "e82022f220301f475404ba0131334ac542ab032a5a989699feccbfdb7fd80973",
+    "src/epi_python/chapter_24_honors_class/pg_361_zipping_linked_list.py": "ea36783c5e82f219f92f6367476704ed9963740ca5e3d5debada8f6b5d83b6be",
+    "tests/chapter_24_honors_class/test_pg_361_zipping_linked_list.py": "188ba24a1b3250ed68c188db32a98b8bb6653ad1bf36928f9e2b6cee59ac42e9",
+    "src/epi_python/chapter_24_honors_class/pg_362_copy_postings_list.py": "583bf8040a50ce274fa795a0e05aaf1940a82a5d274a58fb52cee1ccb9b97f4f",
+    "tests/chapter_24_honors_class/test_pg_362_copy_postings_list.py": "55d3b658bad9fbe4e729f073a99d97e5dbc1af4f9170f82fc84634550e2684fd",
+    "src/epi_python/chapter_24_honors_class/pg_364_longest_matching_parentheses.py": "4a7155fdd0b02bf040a2dbd636f775441b8fa55db00a35da16910715167ff688",
+    "tests/chapter_24_honors_class/test_pg_364_longest_matching_parentheses.py": "5320f8d2d381c5be35537a2623c716266ad6337857083c9e40ce2c181005e3e8",
+    "src/epi_python/chapter_24_honors_class/pg_365_max_of_sliding_window.py": "e85b922708f369be3b054411252db1c4ae37d6f738117f12e31652a04d48f8a0",
+    "tests/chapter_24_honors_class/test_pg_365_max_of_sliding_window.py": "5ff90e8017aeedd764eb6c8ee6eec0ec76b9da96ff3e7327c3128ba6c2193233",
+    "src/epi_python/chapter_24_honors_class/pg_366_postorder_traversal.py": "93c2407c7880ea9d69b2489de595c7d7759c7d3fe5237dbaa1dd64e9cf563b2f",
+    "tests/chapter_24_honors_class/test_pg_366_postorder_traversal.py": "0cdca98c377a98ef8f6fbc3bf5630397ebc142a73efdd18ed641ce31b457ae57",
+    "src/epi_python/chapter_24_honors_class/pg_368_calculate_bonus.py": "45d9547641bb4af99989150e78e42a113efc63c8307e9f2f51a2f0fcb5a78769",
+    "tests/chapter_24_honors_class/test_pg_368_calculate_bonus.py": "1d0b4841249fb5d40389303873ff8abde8be0d378cb1f9772f3f08ff65746df1",
+    "src/epi_python/chapter_24_honors_class/pg_370_binary_search_unknown_length.py": "bfad58349d08d4c9bda587fce33a055d7f1c1fe27d99ab0b6687302abd448206",
+    "tests/chapter_24_honors_class/test_pg_370_binary_search_unknown_length.py": "9472424a21ab5c84384d6b2378c534fdc51cfcb478b8a25be8baa7aa3601ecf7",
+    "src/epi_python/chapter_24_honors_class/pg_372_find_kth_in_two_sorted_arrays.py": "6ace0278988c1b44a65ef5e373c648a3caa437ad51f303aec6878cf115742046",
+    "tests/chapter_24_honors_class/test_pg_372_find_kth_in_two_sorted_arrays.py": "09c2d2bcd86656f671ef6c9576de7aa95edfe799e996d4e5bfd84f6e108bf967",
+    "src/epi_python/chapter_24_honors_class/pg_373_find_kth_largest_unknown_length.py": "5384f0e052f752023201191e0993f8a715d661b9019629db5c5a135e91d80cbc",
+    "tests/chapter_24_honors_class/test_pg_373_find_kth_largest_unknown_length.py": "0a0a2b4a315c3b9ca5523051c17bea84d84804739e622833ea1321076d84fcc6",
+    "src/epi_python/chapter_24_honors_class/pg_374_find_element_appears_once.py": "e327925affa6856df390c7a9a4a9f3a8297f44e69072d58f4a8cb3d04090542e",
+    "tests/chapter_24_honors_class/test_pg_374_find_element_appears_once.py": "af753615425648b4962b824ffe58762ee6fa0fad79890313510399983f545753",
+    "src/epi_python/chapter_24_honors_class/pg_375_find_line_with_most_points.py": "63c06d7b0d3954481393afaec17b7c99df36e80f079a7d5f28899dbbda590ad5",
+    "tests/chapter_24_honors_class/test_pg_375_find_line_with_most_points.py": "1f218a8a595f8936c2024f25d1aa4d05e976fc8e294acd79ad7dce4a1f5686b8",
+    "src/epi_python/chapter_24_honors_class/pg_376_build_bst_from_sorted_doubly_list.py": "49f84073db768568c4224349a483acbb61414fce4c271f8586c6d7d0a52f957e",
+    "tests/chapter_24_honors_class/test_pg_376_build_bst_from_sorted_doubly_list.py": "ab1a9d88e71c28bc660608c3109eff1da7a594547ecbf0c3db947629b0df62fb",
+    "src/epi_python/chapter_24_honors_class/pg_378_bst_to_doubly_linked_list.py": "b20c8527aa8b8569a4750bc07edb6f5e335e81c2387d1880a52eedae289d21b6",
+    "tests/chapter_24_honors_class/test_pg_378_bst_to_doubly_linked_list.py": "ff3afcdb825e3aafc9819927cdfee7f796ea87ada3da1f674e5fe585de95f40c",
+    "src/epi_python/chapter_24_honors_class/pg_379_merge_two_bsts.py": "c03c92066c7a30844870a48375c1cde302fc07089fdcc79b7cdc70213a383a8b",
+    "tests/chapter_24_honors_class/test_pg_379_merge_two_bsts.py": "e1d80a4933ba553283bf6549552fcf0dc50f315086a9d1ab1def790541a527e0",
+    "src/epi_python/chapter_24_honors_class/pg_380_is_match.py": "93a5b4c68fae5c5d9581d2d10de32e1690782f05d7e9b85cbccd152d79551853",
+    "tests/chapter_24_honors_class/test_pg_380_is_match.py": "666d1a35cbaef442f073e97b202659d62cdd9abdf1c8b0580e2718a453930f3b",
+    "src/epi_python/chapter_24_honors_class/pg_383_expression_synthesis.py": "5d8ae962bc3543a95ebff443a4c07f0e6d321fe319da41153454480f7857de5f",
+    "tests/chapter_24_honors_class/test_pg_383_expression_synthesis.py": "efbbbf59b9b6741d30bdc6a752885465ac18127d4f50e742934a5525c0500826",
+    "src/epi_python/chapter_24_honors_class/pg_385_count_inversions.py": "9c8100b0c98731e3616583e4ae12af9e351ad8f253350c65bedffea26da5784d",
+    "tests/chapter_24_honors_class/test_pg_385_count_inversions.py": "3f5a35b2d631d442ec764df2d68b1d8e909989046b33284f775e6ec89b93be5c",
+    "src/epi_python/chapter_24_honors_class/pg_386_compute_skyline.py": "8f85b2323d3e08f31ed18d5843c3cf06330057880ce284186b5639f61c94e6bf",
+    "tests/chapter_24_honors_class/test_pg_386_compute_skyline.py": "2eae8d0a9a2274e5cbf895eb4b723219c1b4bbaf9dc15b3f8bf0d57dfb1d130d",
+    "src/epi_python/chapter_24_honors_class/pg_388_check_feasible.py": "e0630bc1c63be08370bd3ec69a916389468d351c1417970395d089aeeb7a662f",
+    "tests/chapter_24_honors_class/test_pg_388_check_feasible.py": "9310e99f4d60cc4221b41a43d0a76a023ad85e5e4fd6414db72409c804934cc5",
+    "src/epi_python/chapter_24_honors_class/pg_390_max_subarray_sum_in_circular_array.py": "ff481c67db6319106263c51a046bd4212161f633f68c6a2d77778dbbe8b581b5",
+    "tests/chapter_24_honors_class/test_pg_390_max_subarray_sum_in_circular_array.py": "b7eff756bb379d63e020484da4a194e45363614179caead05a102acfcf9aa681",
+    "src/epi_python/chapter_24_honors_class/pg_391_get_height.py": "efb2f9864a84276afd8a72431dd622cf52d1c95be1a78e975d28bd1eb75c090f",
+    "tests/chapter_24_honors_class/test_pg_391_get_height.py": "2e308ac26871b4a193a93eb89810b98958b9066e4abe18552326a8e43782b947",
+    "src/epi_python/chapter_24_honors_class/pg_393_max_rectangle_submatrix.py": "50bb4f61eb98aec02c9482ec61fc67db6b76f86921ca4487a9bf6d080ccfc17a",
+    "tests/chapter_24_honors_class/test_pg_393_max_rectangle_submatrix.py": "eddfa4e10f8897eabb58f77e45a19703e46cb6546d5fc0c94f9b9f748d384305",
+    "src/epi_python/chapter_24_honors_class/pg_395_huffman_encoding.py": "b968d790aac19909c42cc23f6248ecb0033a52bb0443cd392ad4a6ff5ee566ad",
+    "tests/chapter_24_honors_class/test_pg_395_huffman_encoding.py": "6a99b4c9f22c5b06bec549f15f893583fc49b55ff1a8d2772a433e677f4dc733",
+    "src/epi_python/chapter_24_honors_class/pg_398_calculate_trapping_water.py": "1324f9377bca7604b4f66d715d5f020ee33f70ac208955d7187ce7edcd3017c2",
+    "tests/chapter_24_honors_class/test_pg_398_calculate_trapping_water.py": "c6d475db7f5bf6f1719820da78fda2d601149c312f4e1d401311e2ef8587f0d2",
+    "src/epi_python/chapter_24_honors_class/pg_399_search_frequent_items.py": "c4c96ab6ae6f59f4222c337af40d2a92282866195cb57ac5a0b9f8ae276b3bf3",
+    "tests/chapter_24_honors_class/test_pg_399_search_frequent_items.py": "840ee9ed0b2d8943188bc75ceacbf36dedb864b1d24c9f821f9feff15f43619d",
+    "src/epi_python/chapter_24_honors_class/pg_400_find_longest_subarray_less_equal_k.py": "0dec3c2527f02b905641fe0e0b5a571fe22dcf85e59a0f9a9f1fddf5b0f11bfa",
+    "tests/chapter_24_honors_class/test_pg_400_find_longest_subarray_less_equal_k.py": "539f0abab280aac19119f9af2f0192785d5fc92b47db8427f9465c7983533810",
+    "src/epi_python/chapter_24_honors_class/pg_402_find_best_proposals.py": "70c779036c10053a5478df3a2cbecc3327e61cc69a9dd1ebcb53d086729ef37f",
+    "tests/chapter_24_honors_class/test_pg_402_find_best_proposals.py": "4d762c51c078600540bda386e30039890a8cbe74d7aa9b8e037f7c26cc7ff258",
+    "src/epi_python/chapter_24_honors_class/pg_403_is_arbitrage_exist.py": "5356e97afffbe24b130e08d52af261fd369630556e199bde3302758d93ff1f7e",
+    "tests/chapter_24_honors_class/test_pg_403_is_arbitrage_exist.py": "c128a2e48b41967e4be56958938090cccb5319114af4b7dd1a1481b44ef1ed8a"
+  },
+  "standalone_passed": 215,
+  "standalone_total": 215,
+  "standalone_results": [
+    {
+      "exercise": "4.1",
+      "module": "epi_python.chapter_04_primitive_types.pg_024_parity",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "parity: 0\nparity: 1\nparity: 0\nparity: 1\nparity: 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.2",
+      "module": "epi_python.chapter_04_primitive_types.pg_027_swap_bits",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "swap_bits: 1\nswap_bits: 9\nswap_bits: 0\nswap_bits: 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.3",
+      "module": "epi_python.chapter_04_primitive_types.pg_028_reverse_bits",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "reverse_bits: 0\nreverse_bits: 128\nreverse_bits: 12\nreverse_bits: 10\nreverse_bits: 255\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.4",
+      "module": "epi_python.chapter_04_primitive_types.pg_028_closest_int_same_bit_count",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "closest_int_same_bit_count: 5\nclosest_int_same_bit_count: 11\nclosest_int_same_bit_count: 4\nclosest_int_same_bit_count: 9\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.5",
+      "module": "epi_python.chapter_04_primitive_types.pg_029_multiply_without_arithmetic",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "7 * 6 = 42\n13 * 9 = 117\n0 * 5 = 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.6",
+      "module": "epi_python.chapter_04_primitive_types.pg_031_divide_without_arithmetic",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "17 // 3 = 5\n6 // 3 = 2\n0 // 1 = 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.7",
+      "module": "epi_python.chapter_04_primitive_types.pg_032_power",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "2.0 ** 10 = 1024.0\n2.0 ** -2 = 0.25\n-2.0 ** 3 = -8.0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.8",
+      "module": "epi_python.chapter_04_primitive_types.pg_032_reverse_digits",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "reverse_digits: 0\nreverse_digits: 321\nreverse_digits: -321\nreverse_digits: 21\nreverse_digits: 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.9",
+      "module": "epi_python.chapter_04_primitive_types.pg_033_is_number_palindromic",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "is_number_palindromic: True\nis_number_palindromic: True\nis_number_palindromic: True\nis_number_palindromic: True\nis_number_palindromic: False\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.10",
+      "module": "epi_python.chapter_04_primitive_types.pg_034_uniform_random",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "uniform_random(4, 9): 8\nuniform_random(4, 9): 8\nuniform_random(4, 9): 5\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "4.11",
+      "module": "epi_python.chapter_04_primitive_types.pg_035_rectangle_intersection",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "intersection: Rectangle(x=2, y=1, width=1, height=2)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.1",
+      "module": "epi_python.chapter_05_arrays.pg_039_dutch_flag_partition",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "partition: [1, 1, 2, 3, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.2",
+      "module": "epi_python.chapter_05_arrays.pg_043_plus_one",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "plus_one: [1, 3, 0]\nplus_one: [1, 0, 0]\nplus_one: [1]\nplus_one: [2, 4]\nplus_one: [1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.3",
+      "module": "epi_python.chapter_05_arrays.pg_043_multiply_digits",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "[1, 2, 3] × [4, 5] = [5, 5, 3, 5]\n[-2] × [3] = [-6]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.4",
+      "module": "epi_python.chapter_05_arrays.pg_044_can_reach_end",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "can_reach_end: True\ncan_reach_end: False\ncan_reach_end: True\ncan_reach_end: True\ncan_reach_end: False\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.5",
+      "module": "epi_python.chapter_05_arrays.pg_045_delete_duplicates",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Unique sorted prefix: [1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.6",
+      "module": "epi_python.chapter_05_arrays.pg_046_compute_max_profit",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "compute_max_profit: 30\ncompute_max_profit: 0.0\ncompute_max_profit: 0.0\ncompute_max_profit: 4\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.7",
+      "module": "epi_python.chapter_05_arrays.pg_047_buy_and_sell_stock_twice",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "buy_and_sell_stock_twice: 0.0\nbuy_and_sell_stock_twice: 4.0\nbuy_and_sell_stock_twice: 12\nbuy_and_sell_stock_twice: 0.0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.8",
+      "module": "epi_python.chapter_05_arrays.pg_048_rearrange_alternation",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "rearrange_alternation: []\nrearrange_alternation: [2, 3]\nrearrange_alternation: [1, 3, 2, 4]\nrearrange_alternation: [3, 4, 1, 2]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.9",
+      "module": "epi_python.chapter_05_arrays.pg_049_generate_primes",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "generate_primes: []\ngenerate_primes: []\ngenerate_primes: [2]\ngenerate_primes: [2, 3, 5, 7]\ngenerate_primes: [2, 3, 5, 7, 11, 13, 17, 19]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.10",
+      "module": "epi_python.chapter_05_arrays.pg_050_apply_permutation",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "permuted: ['b', 'c', 'a']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.11",
+      "module": "epi_python.chapter_05_arrays.pg_052_next_permutation",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "next_permutation: []\nnext_permutation: []\nnext_permutation: [1, 3, 2]\nnext_permutation: []\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.12",
+      "module": "epi_python.chapter_05_arrays.pg_054_offline_random_sampling",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "offline sample: [3, 5, 1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.13",
+      "module": "epi_python.chapter_05_arrays.pg_055_online_random_sampling",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "online sample: [4, 1, 9]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.14",
+      "module": "epi_python.chapter_05_arrays.pg_056_compute_random_permutation",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "permutation: [1, 0, 7, 5, 3, 4, 6, 2]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.15",
+      "module": "epi_python.chapter_05_arrays.pg_057_compute_random_subset",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "random subset: [60, 35, 86, 70, 89]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.16",
+      "module": "epi_python.chapter_05_arrays.pg_058_nonuniform_random_number",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "weighted choice: blue\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.17",
+      "module": "epi_python.chapter_05_arrays.pg_060_sudoku_checker",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "empty Sudoku valid: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.18",
+      "module": "epi_python.chapter_05_arrays.pg_061_spiral_ordering",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "spiral order: [1, 2, 3, 6, 9, 8, 7, 4, 5]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.19",
+      "module": "epi_python.chapter_05_arrays.pg_064_rotate_matrix",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "rotated matrix: [[3, 1], [4, 2]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "5.20",
+      "module": "epi_python.chapter_05_arrays.pg_065_generate_pascal_triangle",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "generate_pascal_triangle: []\ngenerate_pascal_triangle: [[1]]\ngenerate_pascal_triangle: [[1], [1, 1], [1, 2, 1]]\ngenerate_pascal_triangle: [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.1",
+      "module": "epi_python.chapter_06_strings.pg_068_string_integer_interconversion",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "int_to_string: 0\nint_to_string: 3\nint_to_string: -125\nint_to_string: 2001\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.2",
+      "module": "epi_python.chapter_06_strings.pg_069_convert_base",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "FF (base 16) -> 255 (base 10)\n101 (base 2) -> 5 (base 10)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.3",
+      "module": "epi_python.chapter_06_strings.pg_070_ss_decode_col_id",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "ss_decode_col_id: 1\nss_decode_col_id: 26\nss_decode_col_id: 27\nss_decode_col_id: 28\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.4",
+      "module": "epi_python.chapter_06_strings.pg_071_replace_and_remove",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "replace_and_remove: ['d', 'd', 'd', 'd', 'c']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.5",
+      "module": "epi_python.chapter_06_strings.pg_072_is_palindromic",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "is_palindromic: True\nis_palindromic: True\nis_palindromic: False\nis_palindromic: True\nis_palindromic: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.6",
+      "module": "epi_python.chapter_06_strings.pg_073_reverse_words",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "reverse_words: Bob likes Alice\nreverse_words: a\nreverse_words: \nreverse_words: two one\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.7",
+      "module": "epi_python.chapter_06_strings.pg_074_phone_mnemonics",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "phone 23: ['AD', 'AE', 'AF', 'BD', 'BE', 'BF', 'CD', 'CE', 'CF']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.8",
+      "module": "epi_python.chapter_06_strings.pg_075_look_and_say",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "look_and_say: 1\nlook_and_say: 11\nlook_and_say: 21\nlook_and_say: 1211\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.9",
+      "module": "epi_python.chapter_06_strings.pg_076_roman_to_integer",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "roman_to_integer: 1\nroman_to_integer: 4\nroman_to_integer: 9\nroman_to_integer: 14\nroman_to_integer: 1994\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.10",
+      "module": "epi_python.chapter_06_strings.pg_077_get_valid_ip_addresses",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "get_valid_ip_addresses: ['0.0.0.0']\nget_valid_ip_addresses: ['1.1.1.1']\nget_valid_ip_addresses: []\nget_valid_ip_addresses: ['9.9.9.9']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.11",
+      "module": "epi_python.chapter_06_strings.pg_078_snake_string",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "snake string: e lHloWrdlo!\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.12",
+      "module": "epi_python.chapter_06_strings.pg_079_run_length_encoding",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "encoding: \nencoding: 1a\nencoding: 4a1b3c2a\nencoding: 1a1b\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "6.13",
+      "module": "epi_python.chapter_06_strings.pg_079_rabin_karp",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "rabin_karp: 6\nrabin_karp: 2\nrabin_karp: -1\nrabin_karp: 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.1",
+      "module": "epi_python.chapter_07_linked_lists.pg_084_merge_two_sorted_lists",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "merge_two_sorted_lists [1, 2, 3, 4, 5, 6]\nmerge_two_sorted_lists [1]\nmerge_two_sorted_lists [1, 1, 1, 2]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.2",
+      "module": "epi_python.chapter_07_linked_lists.pg_085_reverse_sublist",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "reverse_sublist [1, 3, 2, 4]\nreverse_sublist [3, 2, 1]\nreverse_sublist [1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.3",
+      "module": "epi_python.chapter_07_linked_lists.pg_086_has_cycle",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "has_cycle False\nhas_cycle False\nhas_cycle True\nhas_cycle True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.4",
+      "module": "epi_python.chapter_07_linked_lists.pg_087_overlapping_no_cycle_lists",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "first overlapping value: 7\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.5",
+      "module": "epi_python.chapter_07_linked_lists.pg_088_overlapping_lists_with_cycles",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "overlap (cycles): 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.6",
+      "module": "epi_python.chapter_07_linked_lists.pg_090_delete_node",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "delete node: [1, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.7",
+      "module": "epi_python.chapter_07_linked_lists.pg_090_remove_kth_last",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "remove second-to-last: [1, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.8",
+      "module": "epi_python.chapter_07_linked_lists.pg_091_remove_duplicates_sorted_list",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "remove_duplicates_sorted_list []\nremove_duplicates_sorted_list [1, 2, 3]\nremove_duplicates_sorted_list [1, 2, 3]\nremove_duplicates_sorted_list [4]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.9",
+      "module": "epi_python.chapter_07_linked_lists.pg_092_cyclic_right_shift",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "cyclic shift: [4, 1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.10",
+      "module": "epi_python.chapter_07_linked_lists.pg_093_even_odd_merge",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "even/odd merge: [0, 2, 4, 1, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.11",
+      "module": "epi_python.chapter_07_linked_lists.pg_094_linked_list_palindrome",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "linked palindrome: [1, 2, 1] True\nlinked palindrome: [1, 2, 3] False\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.12",
+      "module": "epi_python.chapter_07_linked_lists.pg_095_list_pivot",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "pivot: [1, 2, 2, 2, 3, 5]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "7.13",
+      "module": "epi_python.chapter_07_linked_lists.pg_096_add_list_based_integers",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "reverse-digit sum: [0, 2, 3, 1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.1",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_098_stack_with_max",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "push: 2 max: 2\npush: 7 max: 7\npush: 3 max: 7\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.2",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_101_evaluate_rpn",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "evaluate_rpn: 7\nevaluate_rpn: 14\nevaluate_rpn: 0\nevaluate_rpn: -2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.3",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_102_is_well_formed",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "is_well_formed: True\nis_well_formed: True\nis_well_formed: True\nis_well_formed: False\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.4",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_102_shortest_equivalent_path",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "shortest_equivalent_path: /usr/lib\nshortest_equivalent_path: a/c\nshortest_equivalent_path: /\nshortest_equivalent_path: a/b\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.5",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_103_sunset_view",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "sunset-visible indices: [2, 4, 5]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.6",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_106_binary_tree_depth_order",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "tree levels: [[1], [2, 3]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.7",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_107_circular_queue",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "circular queue: [1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.8",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_108_queue_from_stacks",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "queue_from_stacks: []\nqueue_from_stacks: [1]\nqueue_from_stacks: [1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "8.9",
+      "module": "epi_python.chapter_08_stacks_and_queues.pg_109_queue_with_max",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "queue max: 5\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.1",
+      "module": "epi_python.chapter_09_binary_trees.pg_114_is_balanced_binary_tree",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "<frozen runpy>:128: RuntimeWarning: 'epi_python.chapter_09_binary_trees.pg_114_is_balanced_binary_tree' found in sys.modules after import of package 'epi_python.chapter_09_binary_trees', but prior to execution of 'epi_python.chapter_09_binary_trees.pg_114_is_balanced_binary_tree'; this may result in unpredictable behaviour\nis_balanced_binary_tree True\nis_balanced_binary_tree True\nis_balanced_binary_tree False\nis_balanced_binary_tree True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.2",
+      "module": "epi_python.chapter_09_binary_trees.pg_116_is_symmetric_binary_tree",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "is_symmetric_binary_tree True\nis_symmetric_binary_tree True\nis_symmetric_binary_tree True\nis_symmetric_binary_tree False\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.3",
+      "module": "epi_python.chapter_09_binary_trees.pg_117_lowest_common_ancestor",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "LCA(1,3): 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.4",
+      "module": "epi_python.chapter_09_binary_trees.pg_118_lca_with_parent",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "parent LCA: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.5",
+      "module": "epi_python.chapter_09_binary_trees.pg_119_sum_root_to_leaf_paths",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "sum of binary paths: 5\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.6",
+      "module": "epi_python.chapter_09_binary_trees.pg_120_has_path_sum",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "has root-leaf path sum 8: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.7",
+      "module": "epi_python.chapter_09_binary_trees.pg_121_inorder_traversal",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "inorder_traversal []\ninorder_traversal [1]\ninorder_traversal [1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.8",
+      "module": "epi_python.chapter_09_binary_trees.pg_121_preorder_without_recursion",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "preorder: [2, 1, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.9",
+      "module": "epi_python.chapter_09_binary_trees.pg_122_kth_node_inorder",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "2nd inorder: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.10",
+      "module": "epi_python.chapter_09_binary_trees.pg_123_inorder_successor",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "successor of 1: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.11",
+      "module": "epi_python.chapter_09_binary_trees.pg_124_morris_inorder",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Morris inorder: [1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.12",
+      "module": "epi_python.chapter_09_binary_trees.pg_125_reconstruct_from_traversals",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "reconstructed: (2, (1, None, None), (3, None, None))\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.13",
+      "module": "epi_python.chapter_09_binary_trees.pg_127_reconstruct_preorder_markers",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "preorder with null markers: (1, (2, None, None), (3, None, None))\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.14",
+      "module": "epi_python.chapter_09_binary_trees.pg_128_binary_tree_leaves_list",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "leaf list: [1, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.15",
+      "module": "epi_python.chapter_09_binary_trees.pg_128_exterior_binary_tree",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "exterior: [1, 2, 4, 5, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "9.16",
+      "module": "epi_python.chapter_09_binary_trees.pg_129_right_sibling_tree",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "right siblings: [(1, None), (2, 3), (3, None)]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "10.1",
+      "module": "epi_python.chapter_10_heaps.pg_134_merge_sorted_arrays",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "merge_sorted_arrays: []\nmerge_sorted_arrays: [1, 2, 3, 4]\nmerge_sorted_arrays: [0, 1, 1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "10.2",
+      "module": "epi_python.chapter_10_heaps.pg_135_sort_increasing_decreasing_array",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "sorted monotone runs: [1, 2, 3, 4, 5, 6, 9]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "10.3",
+      "module": "epi_python.chapter_10_heaps.pg_136_sort_approximately_sorted_array",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "sort_approximately_sorted_array: []\nsort_approximately_sorted_array: [1, 2, 3]\nsort_approximately_sorted_array: [1, 2, 3]\nsort_approximately_sorted_array: [1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "10.4",
+      "module": "epi_python.chapter_10_heaps.pg_137_k_closest_stars",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "closest stars: [(0.0, 0.0, 1.0), (2.0, 0.0, 0.0)]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "10.5",
+      "module": "epi_python.chapter_10_heaps.pg_139_online_median",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "online_median []\nonline_median [1.0]\nonline_median [1.0, 1.5]\nonline_median [1.0, 0.5, 1.0, 2.0, 2.0]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "10.6",
+      "module": "epi_python.chapter_10_heaps.pg_140_k_largest_in_binary_heap",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "top 3 heap: [10, 9, 8]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.1",
+      "module": "epi_python.chapter_11_searching.pg_145_search_first_of_k",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "search_first_of_k: -1\nsearch_first_of_k: 1\nsearch_first_of_k: 0\nsearch_first_of_k: -1\nsearch_first_of_k: 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.2",
+      "module": "epi_python.chapter_11_searching.pg_146_search_entry_equal_to_index",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "search_entry_equal_to_index: 2\nsearch_entry_equal_to_index: -1\nsearch_entry_equal_to_index: -1\nsearch_entry_equal_to_index: 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.3",
+      "module": "epi_python.chapter_11_searching.pg_147_search_smallest",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "search_smallest: -1\nsearch_smallest: 2\nsearch_smallest: 0\nsearch_smallest: 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.4",
+      "module": "epi_python.chapter_11_searching.pg_148_square_root",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "square_root: 0\nsquare_root: 1\nsquare_root: 1\nsquare_root: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.5",
+      "module": "epi_python.chapter_11_searching.pg_149_real_square_root",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "sqrt: 2.0 1.414213562372879\nsqrt: 0.25 0.5000000000001137\nsqrt: 100.0 10.000000000000256\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.6",
+      "module": "epi_python.chapter_11_searching.pg_150_matrix_search",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "matrix_search: True\nmatrix_search: False\nmatrix_search: False\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.7",
+      "module": "epi_python.chapter_11_searching.pg_152_find_min_max",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "min and max: (1, 4)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.8",
+      "module": "epi_python.chapter_11_searching.pg_153_kth_largest_element",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "third largest: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.9",
+      "module": "epi_python.chapter_11_searching.pg_155_find_missing_ip",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "missing IP: 42\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "11.10",
+      "module": "epi_python.chapter_11_searching.pg_157_find_duplicate_missing",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "duplicate, missing: (1, 2)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.1",
+      "module": "epi_python.chapter_12_hash_tables.pg_163_can_form_palindrome",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "can_form_palindrome: True\ncan_form_palindrome: True\ncan_form_palindrome: False\ncan_form_palindrome: True\ncan_form_palindrome: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.2",
+      "module": "epi_python.chapter_12_hash_tables.pg_164_is_letter_constructible_from_magazine",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "letter='aab', magazine='baa', explicit=True, pythonic=True\nletter='aab', magazine='ab', explicit=False, pythonic=False\nletter='', magazine='abc', explicit=True, pythonic=True\nletter='A', magazine='a', explicit=False, pythonic=False\nletter='a b', magazine='b a', explicit=True, pythonic=True\nAll five standalone examples passed.\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.3",
+      "module": "epi_python.chapter_12_hash_tables.pg_165_isbn_lru_cache",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "ISBN cache lookups: [10, -1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.4",
+      "module": "epi_python.chapter_12_hash_tables.pg_166_lca_close_ancestors",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "close-ancestor LCA: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.5",
+      "module": "epi_python.chapter_12_hash_tables.pg_167_find_nearest_repetition",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "find_nearest_repetition: -1\nfind_nearest_repetition: 2\nfind_nearest_repetition: 1\nfind_nearest_repetition: -1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.6",
+      "module": "epi_python.chapter_12_hash_tables.pg_168_smallest_subarray_covering_set",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "covering window: (2, 4)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.7",
+      "module": "epi_python.chapter_12_hash_tables.pg_171_smallest_subarray_sequential_cover",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "ordered cover: (4, 6)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.8",
+      "module": "epi_python.chapter_12_hash_tables.pg_173_longest_subarray_with_distinct_entries",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "longest_subarray_with_distinct_entries: 0\nlongest_subarray_with_distinct_entries: 3\nlongest_subarray_with_distinct_entries: 4\nlongest_subarray_with_distinct_entries: 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.9",
+      "module": "epi_python.chapter_12_hash_tables.pg_174_longest_contained_interval",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "consecutive interval length: 6\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.10",
+      "module": "epi_python.chapter_12_hash_tables.pg_175_string_decompositions",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "word concatenations: [0, 9]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.11",
+      "module": "epi_python.chapter_12_hash_tables.pg_176_collatz_conjecture",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Collatz validated to 1000: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "12.12",
+      "module": "epi_python.chapter_12_hash_tables.pg_177_chess_zobrist_hash",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "chess Zobrist hash: 14042115408145992511\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.1",
+      "module": "epi_python.chapter_13_sorting.pg_182_intersect_two_sorted_arrays",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "intersect_two_sorted_arrays: []\nintersect_two_sorted_arrays: [2, 3]\nintersect_two_sorted_arrays: []\nintersect_two_sorted_arrays: [1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.2",
+      "module": "epi_python.chapter_13_sorting.pg_183_merge_two_sorted_arrays",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Merged: [3, 5, 7, 11, 13, 17, 19]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.3",
+      "module": "epi_python.chapter_13_sorting.pg_184_eliminate_duplicate_names",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Distinct first names: [Name(first_name='David', last_name='Gower'), Name(first_name='Ian', last_name='Bell')]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.4",
+      "module": "epi_python.chapter_13_sorting.pg_185_smallest_nonconstructible_value",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "smallest_nonconstructible_value: 1\nsmallest_nonconstructible_value: 10\nsmallest_nonconstructible_value: 6\nsmallest_nonconstructible_value: 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.5",
+      "module": "epi_python.chapter_13_sorting.pg_186_find_max_simultaneous_events",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Peak concurrent events: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.6",
+      "module": "epi_python.chapter_13_sorting.pg_188_add_interval",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Intervals after insert: [(0, 2), (3, 9)]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.7",
+      "module": "epi_python.chapter_13_sorting.pg_189_union_of_intervals",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Union: [Interval(left=Endpoint(value=1, is_closed=True), right=Endpoint(value=7, is_closed=True)), Interval(left=Endpoint(value=9, is_closed=True), right=Endpoint(value=10, is_closed=True))]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.8",
+      "module": "epi_python.chapter_13_sorting.pg_191_group_by_age",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Grouped ages: [13, 13, 14, 12]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.9",
+      "module": "epi_python.chapter_13_sorting.pg_193_team_photo_day",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Can photograph: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.10",
+      "module": "epi_python.chapter_13_sorting.pg_194_stable_sort_linked_list",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Sorted linked list: [1, 1, 2, 3, 4]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "13.11",
+      "module": "epi_python.chapter_13_sorting.pg_195_find_salary_cap",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Payroll cap: 60.0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.1",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_199_is_binary_tree_bst",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "is_binary_tree_bst True\nis_binary_tree_bst True\nis_binary_tree_bst False\nis_binary_tree_bst False\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.2",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_201_find_first_greater_than_k",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "First key greater than 10: 12\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.3",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_202_find_k_largest_in_bst",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Three largest keys: [20, 15, 12]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.4",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_203_find_lca_in_bst",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Lowest common ancestor: 10\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.5",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_204_rebuild_bst_from_preorder",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Reconstructed root: 10\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.6",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_206_find_closest_elements_in_sorted_arrays",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Shortest covering interval width: 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.7",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_207_generate_first_k_a_b_sqrt2",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "First five a + b*sqrt(2) values: [0.0, 1.0, 1.4142135623730951, 2.0, 2.414213562373095]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.8",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_210_build_min_height_bst_from_sorted_array",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Root of minimum-height BST: 4\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.9",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_211_pair_includes_ancestor_and_descendant_of_m",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Ordered ancestor/middle/descendant: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.10",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_212_range_lookup_in_bst",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Keys between 8 and 16: [10, 12, 15]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "14.11",
+      "module": "epi_python.chapter_14_binary_search_trees.pg_215_clients_credits_info",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Top client and adjusted credits: B 11\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.1",
+      "module": "epi_python.chapter_15_recursion.pg_219_compute_tower_hanoi",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "compute_tower_hanoi: []\ncompute_tower_hanoi: [(0, 1)]\ncompute_tower_hanoi: [(0, 2), (0, 1), (2, 1)]\ncompute_tower_hanoi: [(0, 1), (0, 2), (1, 2), (0, 1), (2, 0), (2, 1), (0, 1)]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.2",
+      "module": "epi_python.chapter_15_recursion.pg_221_n_queens",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "4-queens placements: [[1, 3, 0, 2], [2, 0, 3, 1]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.3",
+      "module": "epi_python.chapter_15_recursion.pg_222_permutations",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "All permutations: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 2, 1], [3, 1, 2]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.4",
+      "module": "epi_python.chapter_15_recursion.pg_224_generate_power_set",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "generate_power_set: [[]]\ngenerate_power_set: [[], [1]]\ngenerate_power_set: [[], [1], [2], [1, 2]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.5",
+      "module": "epi_python.chapter_15_recursion.pg_226_combinations",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "combinations: [[]]\ncombinations: [[]]\ncombinations: [[1, 2], [1, 3], [2, 3]]\ncombinations: []\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.6",
+      "module": "epi_python.chapter_15_recursion.pg_227_generate_balanced_parentheses",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "generate_balanced_parentheses: ['']\ngenerate_balanced_parentheses: ['()']\ngenerate_balanced_parentheses: ['(())', '()()']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.7",
+      "module": "epi_python.chapter_15_recursion.pg_228_palindrome_decompositions",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "palindrome_decompositions [['a', 'a', 'b'], ['aa', 'b']]\npalindrome_decompositions_pythonic [['a', 'a', 'b'], ['aa', 'b']]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.8",
+      "module": "epi_python.chapter_15_recursion.pg_229_generate_all_binary_trees",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Distinct binary trees with three nodes: 5\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.9",
+      "module": "epi_python.chapter_15_recursion.pg_230_solve_sudoku",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Solved 4x4 Sudoku: [[1, 3, 2, 4], [2, 4, 1, 3], [3, 1, 4, 2], [4, 2, 3, 1]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "15.10",
+      "module": "epi_python.chapter_15_recursion.pg_232_gray_code",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "3-bit Gray code: [0, 1, 3, 2, 6, 7, 5, 4]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.1",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_236_num_combinations_for_final_score",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "num_combinations_for_final_score: 1\nnum_combinations_for_final_score: 1\nnum_combinations_for_final_score: 2\nnum_combinations_for_final_score: 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.2",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_239_levenshtein_distance",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "levenshtein_distance: 0\nlevenshtein_distance: 0\nlevenshtein_distance: 1\nlevenshtein_distance: 3\nlevenshtein_distance: 1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.3",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_242_number_of_ways",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "3x4 grid paths: 10\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.4",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_244_compute_binomial_coefficients",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "compute_binomial_coefficients: 1\ncompute_binomial_coefficients: 10\ncompute_binomial_coefficients: 1\ncompute_binomial_coefficients: 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.5",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_245_is_pattern_contained_in_grid",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Pattern found: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.6",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_246_optimum_subject_to_capacity",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "optimum_subject_to_capacity 0\noptimum_subject_to_capacity 7\noptimum_subject_to_capacity 0\noptimum_subject_to_capacity 30\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.7",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_249_decompose_into_dictionary_words",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "['bed', 'bath', 'and', 'beyond']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.8",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_251_minimum_path_weight",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Minimum triangle path: 15\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.9",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_252_maximum_revenue",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Optimal first-player winnings: 31\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.10",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_253_number_of_ways_to_top",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "number_of_ways_to_top: 1\nnumber_of_ways_to_top: 1\nnumber_of_ways_to_top: 2\nnumber_of_ways_to_top: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.11",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_254_minimum_messiness",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Minimum messiness: 8\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "16.12",
+      "module": "epi_python.chapter_16_dynamic_programming.pg_257_longest_nondecreasing_subsequence",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "longest_nondecreasing_subsequence 0\nlongest_nondecreasing_subsequence 1\nlongest_nondecreasing_subsequence 4\nlongest_nondecreasing_subsequence 1\nlongest_nondecreasing_subsequence 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.1",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_260_optimum_task_assignment",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Optimal pairing: [PairedTasks(task_1=1, task_2=6), PairedTasks(task_1=2, task_2=5), PairedTasks(task_1=4, task_2=4)]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.2",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_261_minimum_waiting_time",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "minimum_waiting_time: 0\nminimum_waiting_time: 0\nminimum_waiting_time: 4\nminimum_waiting_time: 6\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.3",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_262_find_minimum_visits",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Minimum visits: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.4",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_264_has_three_sum",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "has_three_sum: False\nhas_three_sum: True\nhas_three_sum: True\nhas_three_sum: False\nhas_three_sum: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.5",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_266_majority_search",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "majority_search: None\nmajority_search: a\nmajority_search: None\nmajority_search: z\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.6",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_267_find_ample_city",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Ample city: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.7",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_269_max_water_container",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "max_water_container: 0\nmax_water_container: 0\nmax_water_container: 1\nmax_water_container: 49\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "17.8",
+      "module": "epi_python.chapter_17_greedy_algorithms_and_invariants.pg_270_largest_rectangle_under_skyline",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "largest_rectangle_under_skyline 0\nlargest_rectangle_under_skyline 1\nlargest_rectangle_under_skyline 10\nlargest_rectangle_under_skyline 6\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.1",
+      "module": "epi_python.chapter_18_graphs.pg_276_search_maze",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Maze route: [Coordinate(x=0, y=0), Coordinate(x=0, y=1), Coordinate(x=1, y=1), Coordinate(x=1, y=2), Coordinate(x=2, y=2)]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.2",
+      "module": "epi_python.chapter_18_graphs.pg_278_flip_color",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Flipped region: [[0, 0, 0], [0, 0, 0]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.3",
+      "module": "epi_python.chapter_18_graphs.pg_280_fill_surrounded_regions",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Enclosed whites filled: [['B', 'B', 'B', 'B'], ['B', 'B', 'B', 'B'], ['B', 'B', 'B', 'B'], ['B', 'W', 'B', 'B']]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.4",
+      "module": "epi_python.chapter_18_graphs.pg_281_is_deadlocked",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "is_deadlocked False\nis_deadlocked False\nis_deadlocked True\nis_deadlocked True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.5",
+      "module": "epi_python.chapter_18_graphs.pg_282_clone_graph",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Cloned graph: 1 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.6",
+      "module": "epi_python.chapter_18_graphs.pg_283_is_any_placement_feasible",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Bipartite: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.7",
+      "module": "epi_python.chapter_18_graphs.pg_284_transform_string",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "transform_string: 3\ntransform_string: 0\ntransform_string: -1\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "18.8",
+      "module": "epi_python.chapter_18_graphs.pg_286_find_largest_number_teams",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Largest number of teams: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.1",
+      "module": "epi_python.chapter_19_parallel_computing.pg_291_spell_check_service",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Corrections: ['HELLO']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.2",
+      "module": "epi_python.chapter_19_parallel_computing.pg_292_increment_thread",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Unprotected counter after two threads: 20000\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.3",
+      "module": "epi_python.chapter_19_parallel_computing.pg_293_odd_even_monitor",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Ordered output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.4",
+      "module": "epi_python.chapter_19_parallel_computing.pg_294_thread_pool_server",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Handled requests: [1, 4, 9]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.5",
+      "module": "epi_python.chapter_19_parallel_computing.pg_295_account_transfer",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Balances: 60 40\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.6",
+      "module": "epi_python.chapter_19_parallel_computing.pg_296_readers_writers_lock",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Two readers acquired shared access\nWriter acquired exclusive access\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.7",
+      "module": "epi_python.chapter_19_parallel_computing.pg_297_writers_preference_lock",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Reader and writer exclusion checks passed\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.8",
+      "module": "epi_python.chapter_19_parallel_computing.pg_298_timer_class",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Named task executed successfully\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "19.9",
+      "module": "epi_python.chapter_19_parallel_computing.pg_298_parallel_collatz",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "epi_python.chapter_19_parallel_computing.pg_298_parallel_collatz"
+      ],
+      "status": "passed",
+      "returncode": 0,
+      "stdout_tail": "Collatz checks through 100: True\n",
+      "stderr_tail": "",
+      "method": "subprocess python -m (multiprocessing)"
+    },
+    {
+      "exercise": "24.1",
+      "module": "epi_python.chapter_24_honors_class.pg_351_gcd",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "gcd: 0\ngcd: 4\ngcd: 1\ngcd: 6\ngcd: 10\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.2",
+      "module": "epi_python.chapter_24_honors_class.pg_352_first_missing_positive",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "first_missing_positive: 1\nfirst_missing_positive: 4\nfirst_missing_positive: 2\nfirst_missing_positive: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.3",
+      "module": "epi_python.chapter_24_honors_class.pg_353_buy_and_sell_stock_k_times",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Maximum profit for two trades: 7\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.4",
+      "module": "epi_python.chapter_24_honors_class.pg_354_find_biggest_n_minus_one_product",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "find_biggest_n_minus_one_product 60\nfind_biggest_n_minus_one_product_by_sign 60\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.5",
+      "module": "epi_python.chapter_24_honors_class.pg_356_find_longest_increasing_subarray",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Longest increasing run: Subarray(start=3, end=6)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.6",
+      "module": "epi_python.chapter_24_honors_class.pg_357_rotate_array",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "rotate_array_cycles [4, 5, 1, 2, 3]\nrotate_array [4, 5, 1, 2, 3]\nrotate_array_naive [4, 5, 1, 2, 3]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.7",
+      "module": "epi_python.chapter_24_honors_class.pg_359_rook_attack",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Rook attacked cells: [[1, 0, 1], [0, 0, 0], [1, 0, 1]]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.8",
+      "module": "epi_python.chapter_24_honors_class.pg_360_justify_text",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Justified lines: ['The   quick', 'brown fox  ']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.9",
+      "module": "epi_python.chapter_24_honors_class.pg_361_zipping_linked_list",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Zipped: [0, 4, 1, 3, 2]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.10",
+      "module": "epi_python.chapter_24_honors_class.pg_362_copy_postings_list",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Copied postings: 1 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.11",
+      "module": "epi_python.chapter_24_honors_class.pg_364_longest_matching_parentheses",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Longest valid parentheses: 4\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.12",
+      "module": "epi_python.chapter_24_honors_class.pg_365_max_of_sliding_window",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "max_of_sliding_window: []\nmax_of_sliding_window: [3, 3, 5, 5, 6, 7]\nmax_of_sliding_window: [2, 1]\nmax_of_sliding_window: [2]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.13",
+      "module": "epi_python.chapter_24_honors_class.pg_366_postorder_traversal",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Postorder: [4, 2, 3, 1]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.14",
+      "module": "epi_python.chapter_24_honors_class.pg_368_calculate_bonus",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "calculate_bonus 6\ncalculate_bonus_heap 6\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.15",
+      "module": "epi_python.chapter_24_honors_class.pg_370_binary_search_unknown_length",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Index: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.16",
+      "module": "epi_python.chapter_24_honors_class.pg_372_find_kth_in_two_sorted_arrays",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "4th across two arrays: 4\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.17",
+      "module": "epi_python.chapter_24_honors_class.pg_373_find_kth_largest_unknown_length",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Third largest: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.18",
+      "module": "epi_python.chapter_24_honors_class.pg_374_find_element_appears_once",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Unique integer: -3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.19",
+      "module": "epi_python.chapter_24_honors_class.pg_375_find_line_with_most_points",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Most collinear points: 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.20",
+      "module": "epi_python.chapter_24_honors_class.pg_376_build_bst_from_sorted_doubly_list",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "BST root: 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.21",
+      "module": "epi_python.chapter_24_honors_class.pg_378_bst_to_doubly_linked_list",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Inorder linked: 1 2 3\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.22",
+      "module": "epi_python.chapter_24_honors_class.pg_379_merge_two_bsts",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Merged BST root: 4\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.23",
+      "module": "epi_python.chapter_24_honors_class.pg_380_is_match",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Regex match: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.24",
+      "module": "epi_python.chapter_24_honors_class.pg_383_expression_synthesis",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Expression can make 7: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.25",
+      "module": "epi_python.chapter_24_honors_class.pg_385_count_inversions",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Inversions: 10\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.26",
+      "module": "epi_python.chapter_24_honors_class.pg_386_compute_skyline",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Skyline: [Rectangle(left=1, right=1, height=2), Rectangle(left=2, right=4, height=4)]\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.27",
+      "module": "epi_python.chapter_24_honors_class.pg_388_check_feasible",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Feasible 2100..2300: True\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.28",
+      "module": "epi_python.chapter_24_honors_class.pg_390_max_subarray_sum_in_circular_array",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "max_subarray_sum_in_circular_array 0\nmax_subarray_sum_in_circular_array 6\nmax_subarray_sum_in_circular_array -1\nmax_subarray_sum_in_circular_array 10\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.29",
+      "module": "epi_python.chapter_24_honors_class.pg_391_get_height",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Two cases, five drops: 15\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.30",
+      "module": "epi_python.chapter_24_honors_class.pg_393_max_rectangle_submatrix",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Largest rectangle/square: 6 4\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.31",
+      "module": "epi_python.chapter_24_honors_class.pg_395_huffman_encoding",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Average Huffman code length: 1.5\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.32",
+      "module": "epi_python.chapter_24_honors_class.pg_398_calculate_trapping_water",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Trapped volume: 6\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.33",
+      "module": "epi_python.chapter_24_honors_class.pg_399_search_frequent_items",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Frequent words: ['a']\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.34",
+      "module": "epi_python.chapter_24_honors_class.pg_400_find_longest_subarray_less_equal_k",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Longest subarray with sum <= 3: 5\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.35",
+      "module": "epi_python.chapter_24_honors_class.pg_402_find_best_proposals",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Best highway: HighwaySection(x=0, y=2, distance=2)\n",
+      "stderr_tail": ""
+    },
+    {
+      "exercise": "24.36",
+      "module": "epi_python.chapter_24_honors_class.pg_403_is_arbitrage_exist",
+      "method": "runpy.run_module as __main__ (in process)",
+      "status": "passed",
+      "stdout_tail": "Arbitrage detected: True\n",
+      "stderr_tail": ""
+    }
+  ],
+  "pytest": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "returncode": 0,
+    "stdout": "........................................................................ [  7%]\n........................................................................ [ 14%]\n........................................................................ [ 22%]\n........................................................................ [ 29%]\n........................................................................ [ 37%]\n........................................................................ [ 44%]\n........................................................................ [ 52%]\n........................................................................ [ 59%]\n........................................................................ [ 66%]\n........................................................................ [ 74%]\n........................................................................ [ 81%]\n........................................................................ [ 89%]\n........................................................................ [ 96%]\n................................                                         [100%]\n=============================== warnings summary ===============================\ntests/chapter_19_parallel_computing/test_pg_298_parallel_collatz.py::test_collatz\ntests/chapter_19_parallel_computing/test_pg_298_parallel_collatz.py::test_collatz\n  /usr/lib/python3.13/multiprocessing/popen_fork.py:67: DeprecationWarning: This process (pid=9916) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    self.pid = os.fork()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n968 passed, 2 warnings in 1.13s\n",
+    "stderr": ""
+  }
+}

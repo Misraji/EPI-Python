@@ -1,0 +1,3 @@
+# Convenience alternative to `python -m pip install -e ".[dev]"`.
+# The pyproject.toml file is the canonical dependency specification.
+-e .[dev]
